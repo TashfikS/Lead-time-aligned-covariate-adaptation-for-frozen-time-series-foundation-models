@@ -1,0 +1,23 @@
+\begin{table}[t]\centering\small
+\caption{TrafficLead test split (PEMS-BAY, 5-min speeds; P6). Pooled GM-MASE ratios to the raw covariate with 7-day block-bootstrap 95\% intervals and pairs improved. `All': the ten pre-registered pairs (\num{7320} windows); `filtered': the six pairs without imputed sensors (D25). Best classical arm on Chronos-2 validation: level-binned train lag. Train global lags: 3--29 steps for five pairs and 103--112 steps for the other five (D22).}
+\label{tab:traffic}
+\resizebox{\linewidth}{!}{\begin{tabular}{lrrlrrrrr}
+\toprule
+ & \multicolumn{6}{c}{Chronos-2} & \multicolumn{2}{c}{TimesFM-2.5 (XReg)} \\ \cmidrule(lr){2-7}\cmidrule(lr){8-9}
+Arm & GM-MASE & ratio (all) & 95\% CI & pairs & ratio (filtered) & pairs & ratio (all) & ratio (filtered) \\
+\midrule
+no covariate & 0.299 & 1.021 & [1.016, 1.027] & 1/10 & 1.022 & 0/6 & 0.779 & 0.742 \\
+raw past covariate & 0.293 & -- & -- & -- & -- & -- & -- & -- \\
+random lag (control) & 0.297 & 1.015 & [1.009, 1.022] & 0/10 & 1.017 & 0/6 & 1.123 & 1.078 \\
+GCC-PHAT & 0.299 & 1.020 & [1.014, 1.026] & 0/10 & 1.018 & 0/6 & 1.133 & 1.069 \\
+CCF & 0.296 & 1.011 & [1.008, 1.015] & 2/10 & 1.011 & 2/6 & 1.145 & 1.080 \\
+global train lag & 0.296 & 1.010 & [1.005, 1.014] & 4/10 & 1.015 & 2/6 & 1.141 & 1.081 \\
+CCF, prewhitened & 0.299 & 1.019 & [1.012, 1.027] & 1/10 & 1.023 & 0/6 & 1.115 & 1.071 \\
+top-3 CCF peaks & 0.300 & 1.025 & [1.021, 1.030] & 1/10 & 1.024 & 1/6 & 1.163 & 1.092 \\
+level-binned train lag & 0.296 & 1.011 & [1.006, 1.015] & 3/10 & 1.015 & 1/6 & 1.138 & 1.081 \\
+LTA, seed 0 & 0.298 & 1.018 & [1.013, 1.022] & 0/10 & 1.018 & 0/6 & 1.124 & 1.056 \\
+LTA, seed 1 & 0.298 & 1.018 & [1.013, 1.024] & 1/10 & 1.018 & 1/6 & 1.120 & 1.045 \\
+LTA, seed 2 & 0.299 & 1.022 & [1.018, 1.026] & 0/10 & 1.021 & 0/6 & 1.130 & 1.053 \\
+\bottomrule
+\end{tabular}}
+\end{table}

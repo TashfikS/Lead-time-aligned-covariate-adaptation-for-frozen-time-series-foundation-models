@@ -1,0 +1,146 @@
+[{"stream_name":"stdout","time":19.105285054,"data":"PROGRESS [   0.3 min] pip ('timesfm[torch,xreg]',) rc 0 \n"}
+,{"stream_name":"stdout","time":24.56979655,"data":"PROGRESS [   0.4 min] backbone timesfm25 windows 9046 aligned arrays ['lta_zs', 'lta_ft']\n"}
+,{"stream_name":"stderr","time":37.321847916,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stdout","time":107.218988057,"data":"PROGRESS [   1.8 min] uni 500 / 9046\n"}
+,{"stream_name":"stdout","time":160.875410186,"data":"PROGRESS [   2.7 min] uni 1000 / 9046\n"}
+,{"stream_name":"stdout","time":213.74829818,"data":"PROGRESS [   3.5 min] uni 1500 / 9046\n"}
+,{"stream_name":"stdout","time":266.833533563,"data":"PROGRESS [   4.4 min] uni 2000 / 9046\n"}
+,{"stream_name":"stdout","time":319.908008844,"data":"PROGRESS [   5.3 min] uni 2500 / 9046\n"}
+,{"stream_name":"stdout","time":373.499515493,"data":"PROGRESS [   6.2 min] uni 3000 / 9046\n"}
+,{"stream_name":"stdout","time":425.961264797,"data":"PROGRESS [   7.1 min] uni 3500 / 9046\n"}
+,{"stream_name":"stdout","time":478.533626553,"data":"PROGRESS [   8.0 min] uni 4000 / 9046\n"}
+,{"stream_name":"stdout","time":531.159457649,"data":"PROGRESS [   8.8 min] uni 4500 / 9046\n"}
+,{"stream_name":"stdout","time":583.914980453,"data":"PROGRESS [   9.7 min] uni 5000 / 9046\n"}
+,{"stream_name":"stdout","time":636.801903146,"data":"PROGRESS [  10.6 min] uni 5500 / 9046\n"}
+,{"stream_name":"stdout","time":689.644325945,"data":"PROGRESS [  11.5 min] uni 6000 / 9046\n"}
+,{"stream_name":"stdout","time":742.126791157,"data":"PROGRESS [  12.3 min] uni 6500 / 9046\n"}
+,{"stream_name":"stdout","time":794.829145236,"data":"PROGRESS [  13.2 min] uni 7000 / 9046\n"}
+,{"stream_name":"stdout","time":847.448783542,"data":"PROGRESS [  14.1 min] uni 7500 / 9046\n"}
+,{"stream_name":"stdout","time":900.431888721,"data":"PROGRESS [  15.0 min] uni 8000 / 9046\n"}
+,{"stream_name":"stdout","time":954.198041989,"data":"PROGRESS [  15.9 min] uni 8500 / 9046\n"}
+,{"stream_name":"stdout","time":1009.421152176,"data":"PROGRESS [  16.8 min] uni 9000 / 9046\n"}
+,{"stream_name":"stdout","time":1014.471021916,"data":"PROGRESS [  16.9 min] uni 9500 / 9046\n"}
+,{"stream_name":"stdout","time":1014.675250524,"data":"PROGRESS [  16.9 min] timesfm25 uni GM-MASE 3.0224\n"}
+,{"stream_name":"stderr","time":1027.65558591,"data":"ERROR:jax._src.xla_bridge:Jax plugin configuration error: Exception when calling jax_plugins.xla_cuda12.initialize()\n"}
+,{"stream_name":"stderr","time":1027.655617668,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":1027.655622652,"data":"  File \"/usr/local/lib/python3.13/dist-packages/jax/_src/xla_bridge.py\", line 495, in discover_pjrt_plugins\n"}
+,{"stream_name":"stderr","time":1027.655627315,"data":"    plugin_module.initialize()\n"}
+,{"stream_name":"stderr","time":1027.65563141,"data":"    ~~~~~~~~~~~~~~~~~~~~~~~~^^\n"}
+,{"stream_name":"stderr","time":1027.655637422,"data":"  File \"/usr/local/lib/python3.13/dist-packages/jax_plugins/xla_cuda12/__init__.py\", line 373, in initialize\n"}
+,{"stream_name":"stderr","time":1027.655646367,"data":"    c_api = xb.register_plugin(\n"}
+,{"stream_name":"stderr","time":1027.655649496,"data":"        'cuda', priority=500, library_path=str(path), options=options\n"}
+,{"stream_name":"stderr","time":1027.655652467,"data":"    )\n"}
+,{"stream_name":"stderr","time":1027.655655187,"data":"  File \"/usr/local/lib/python3.13/dist-packages/jax/_src/xla_bridge.py\", line 637, in register_plugin\n"}
+,{"stream_name":"stderr","time":1027.655658246,"data":"    c_api = xla_client.load_pjrt_plugin_dynamically(plugin_name, library_path)\n"}
+,{"stream_name":"stderr","time":1027.655682121,"data":"  File \"/usr/local/lib/python3.13/dist-packages/jaxlib/xla_client.py\", line 115, in load_pjrt_plugin_dynamically\n"}
+,{"stream_name":"stderr","time":1027.655684814,"data":"    return _xla.load_pjrt_plugin(plugin_name, library_path, c_api=None)\n"}
+,{"stream_name":"stderr","time":1027.65568707,"data":"           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":1027.655689347,"data":"jax.errors.JaxRuntimeError: ALREADY_EXISTS: PJRT_Api already exists for device type cuda\n"}
+,{"stream_name":"stdout","time":1145.363361457,"data":"PROGRESS [  19.1 min] raw 500 / 9046\n"}
+,{"stream_name":"stdout","time":1258.497619685,"data":"PROGRESS [  21.0 min] raw 1000 / 9046\n"}
+,{"stream_name":"stdout","time":1371.291617202,"data":"PROGRESS [  22.8 min] raw 1500 / 9046\n"}
+,{"stream_name":"stdout","time":1483.060378187,"data":"PROGRESS [  24.7 min] raw 2000 / 9046\n"}
+,{"stream_name":"stdout","time":1594.141949982,"data":"PROGRESS [  26.5 min] raw 2500 / 9046\n"}
+,{"stream_name":"stdout","time":1705.457197745,"data":"PROGRESS [  28.4 min] raw 3000 / 9046\n"}
+,{"stream_name":"stdout","time":1817.473035189,"data":"PROGRESS [  30.3 min] raw 3500 / 9046\n"}
+,{"stream_name":"stdout","time":1930.431602135,"data":"PROGRESS [  32.2 min] raw 4000 / 9046\n"}
+,{"stream_name":"stdout","time":2042.643168787,"data":"PROGRESS [  34.0 min] raw 4500 / 9046\n"}
+,{"stream_name":"stdout","time":2154.817976297,"data":"PROGRESS [  35.9 min] raw 5000 / 9046\n"}
+,{"stream_name":"stdout","time":2266.052140953,"data":"PROGRESS [  37.7 min] raw 5500 / 9046\n"}
+,{"stream_name":"stdout","time":2376.828964566,"data":"PROGRESS [  39.6 min] raw 6000 / 9046\n"}
+,{"stream_name":"stdout","time":2487.365084612,"data":"PROGRESS [  41.4 min] raw 6500 / 9046\n"}
+,{"stream_name":"stdout","time":2598.328550553,"data":"PROGRESS [  43.3 min] raw 7000 / 9046\n"}
+,{"stream_name":"stdout","time":2708.494832248,"data":"PROGRESS [  45.1 min] raw 7500 / 9046\n"}
+,{"stream_name":"stdout","time":2818.245287413,"data":"PROGRESS [  47.0 min] raw 8000 / 9046\n"}
+,{"stream_name":"stdout","time":2928.167975359,"data":"PROGRESS [  48.8 min] raw 8500 / 9046\n"}
+,{"stream_name":"stdout","time":3037.191310788,"data":"PROGRESS [  50.6 min] raw 9000 / 9046\n"}
+,{"stream_name":"stdout","time":3047.288987717,"data":"PROGRESS [  50.8 min] raw 9500 / 9046\n"}
+,{"stream_name":"stdout","time":3047.485785854,"data":"PROGRESS [  50.8 min] timesfm25 raw GM-MASE 0.3546\n"}
+,{"stream_name":"stdout","time":3171.170907093,"data":"PROGRESS [  52.8 min] ccf_pw 500 / 9046\n"}
+,{"stream_name":"stdout","time":3280.871837917,"data":"PROGRESS [  54.7 min] ccf_pw 1000 / 9046\n"}
+,{"stream_name":"stdout","time":3390.80151632,"data":"PROGRESS [  56.5 min] ccf_pw 1500 / 9046\n"}
+,{"stream_name":"stdout","time":3500.68418202,"data":"PROGRESS [  58.3 min] ccf_pw 2000 / 9046\n"}
+,{"stream_name":"stdout","time":3610.38717438,"data":"PROGRESS [  60.2 min] ccf_pw 2500 / 9046\n"}
+,{"stream_name":"stdout","time":3719.393158158,"data":"PROGRESS [  62.0 min] ccf_pw 3000 / 9046\n"}
+,{"stream_name":"stdout","time":3829.393945621,"data":"PROGRESS [  63.8 min] ccf_pw 3500 / 9046\n"}
+,{"stream_name":"stdout","time":3938.394041682,"data":"PROGRESS [  65.6 min] ccf_pw 4000 / 9046\n"}
+,{"stream_name":"stdout","time":4047.251457418,"data":"PROGRESS [  67.4 min] ccf_pw 4500 / 9046\n"}
+,{"stream_name":"stdout","time":4157.359493304,"data":"PROGRESS [  69.3 min] ccf_pw 5000 / 9046\n"}
+,{"stream_name":"stdout","time":4266.355269471,"data":"PROGRESS [  71.1 min] ccf_pw 5500 / 9046\n"}
+,{"stream_name":"stdout","time":4375.238548395,"data":"PROGRESS [  72.9 min] ccf_pw 6000 / 9046\n"}
+,{"stream_name":"stdout","time":4483.75463428,"data":"PROGRESS [  74.7 min] ccf_pw 6500 / 9046\n"}
+,{"stream_name":"stdout","time":4592.187693955,"data":"PROGRESS [  76.5 min] ccf_pw 7000 / 9046\n"}
+,{"stream_name":"stdout","time":4700.484067715,"data":"PROGRESS [  78.3 min] ccf_pw 7500 / 9046\n"}
+,{"stream_name":"stdout","time":4808.942497877,"data":"PROGRESS [  80.1 min] ccf_pw 8000 / 9046\n"}
+,{"stream_name":"stdout","time":4917.410740725,"data":"PROGRESS [  81.9 min] ccf_pw 8500 / 9046\n"}
+,{"stream_name":"stdout","time":5025.565829328,"data":"PROGRESS [  83.7 min] ccf_pw 9000 / 9046\n"}
+,{"stream_name":"stdout","time":5035.401629848,"data":"PROGRESS [  83.9 min] ccf_pw 9500 / 9046\n"}
+,{"stream_name":"stdout","time":5035.597096777,"data":"PROGRESS [  83.9 min] timesfm25 ccf_pw GM-MASE 0.2865\n"}
+,{"stream_name":"stdout","time":5161.049533765,"data":"PROGRESS [  86.0 min] top3 500 / 9046\n"}
+,{"stream_name":"stdout","time":5273.944268534,"data":"PROGRESS [  87.9 min] top3 1000 / 9046\n"}
+,{"stream_name":"stdout","time":5386.465675145,"data":"PROGRESS [  89.8 min] top3 1500 / 9046\n"}
+,{"stream_name":"stdout","time":5502.99137404,"data":"PROGRESS [  91.7 min] top3 2000 / 9046\n"}
+,{"stream_name":"stdout","time":5620.159050458,"data":"PROGRESS [  93.6 min] top3 2500 / 9046\n"}
+,{"stream_name":"stdout","time":5732.657216391,"data":"PROGRESS [  95.5 min] top3 3000 / 9046\n"}
+,{"stream_name":"stdout","time":5846.988169731,"data":"PROGRESS [  97.4 min] top3 3500 / 9046\n"}
+,{"stream_name":"stdout","time":5960.241115813,"data":"PROGRESS [  99.3 min] top3 4000 / 9046\n"}
+,{"stream_name":"stdout","time":6072.40779162,"data":"PROGRESS [ 101.2 min] top3 4500 / 9046\n"}
+,{"stream_name":"stdout","time":6185.374017859,"data":"PROGRESS [ 103.1 min] top3 5000 / 9046\n"}
+,{"stream_name":"stdout","time":6299.879489176,"data":"PROGRESS [ 105.0 min] top3 5500 / 9046\n"}
+,{"stream_name":"stdout","time":6412.581670165,"data":"PROGRESS [ 106.9 min] top3 6000 / 9046\n"}
+,{"stream_name":"stdout","time":6526.166674271,"data":"PROGRESS [ 108.7 min] top3 6500 / 9046\n"}
+,{"stream_name":"stdout","time":6639.363311896,"data":"PROGRESS [ 110.6 min] top3 7000 / 9046\n"}
+,{"stream_name":"stdout","time":6752.17800628,"data":"PROGRESS [ 112.5 min] top3 7500 / 9046\n"}
+,{"stream_name":"stdout","time":6866.10690391,"data":"PROGRESS [ 114.4 min] top3 8000 / 9046\n"}
+,{"stream_name":"stdout","time":6978.870151863,"data":"PROGRESS [ 116.3 min] top3 8500 / 9046\n"}
+,{"stream_name":"stdout","time":7091.645050198,"data":"PROGRESS [ 118.2 min] top3 9000 / 9046\n"}
+,{"stream_name":"stdout","time":7101.888778017,"data":"PROGRESS [ 118.3 min] top3 9500 / 9046\n"}
+,{"stream_name":"stdout","time":7102.085882615,"data":"PROGRESS [ 118.3 min] timesfm25 top3 GM-MASE 0.2998\n"}
+,{"stream_name":"stdout","time":7215.669954278,"data":"PROGRESS [ 120.2 min] binned 500 / 9046\n"}
+,{"stream_name":"stdout","time":7328.3274942,"data":"PROGRESS [ 122.1 min] binned 1000 / 9046\n"}
+,{"stream_name":"stdout","time":7440.993531353,"data":"PROGRESS [ 124.0 min] binned 1500 / 9046\n"}
+,{"stream_name":"stdout","time":7552.580047429,"data":"PROGRESS [ 125.9 min] binned 2000 / 9046\n"}
+,{"stream_name":"stdout","time":7663.684588218,"data":"PROGRESS [ 127.7 min] binned 2500 / 9046\n"}
+,{"stream_name":"stdout","time":7774.814101457,"data":"PROGRESS [ 129.6 min] binned 3000 / 9046\n"}
+,{"stream_name":"stdout","time":7886.685313349,"data":"PROGRESS [ 131.4 min] binned 3500 / 9046\n"}
+,{"stream_name":"stdout","time":7998.784541333,"data":"PROGRESS [ 133.3 min] binned 4000 / 9046\n"}
+,{"stream_name":"stdout","time":8111.002553699,"data":"PROGRESS [ 135.2 min] binned 4500 / 9046\n"}
+,{"stream_name":"stdout","time":8223.78812268,"data":"PROGRESS [ 137.0 min] binned 5000 / 9046\n"}
+,{"stream_name":"stdout","time":8335.740266928,"data":"PROGRESS [ 138.9 min] binned 5500 / 9046\n"}
+,{"stream_name":"stdout","time":8448.756954859,"data":"PROGRESS [ 140.8 min] binned 6000 / 9046\n"}
+,{"stream_name":"stdout","time":8561.289419906,"data":"PROGRESS [ 142.7 min] binned 6500 / 9046\n"}
+,{"stream_name":"stdout","time":8673.818089743,"data":"PROGRESS [ 144.5 min] binned 7000 / 9046\n"}
+,{"stream_name":"stdout","time":8786.708152567,"data":"PROGRESS [ 146.4 min] binned 7500 / 9046\n"}
+,{"stream_name":"stdout","time":8899.54163654,"data":"PROGRESS [ 148.3 min] binned 8000 / 9046\n"}
+,{"stream_name":"stdout","time":9012.222987604,"data":"PROGRESS [ 150.2 min] binned 8500 / 9046\n"}
+,{"stream_name":"stdout","time":9124.573738321,"data":"PROGRESS [ 152.1 min] binned 9000 / 9046\n"}
+,{"stream_name":"stdout","time":9134.883888752,"data":"PROGRESS [ 152.2 min] binned 9500 / 9046\n"}
+,{"stream_name":"stdout","time":9135.093105462,"data":"PROGRESS [ 152.2 min] timesfm25 binned GM-MASE 0.2865\n"}
+,{"stream_name":"stdout","time":9247.436372702,"data":"PROGRESS [ 154.1 min] lta_zs 500 / 9046\n"}
+,{"stream_name":"stdout","time":9359.285339797,"data":"PROGRESS [ 156.0 min] lta_zs 1000 / 9046\n"}
+,{"stream_name":"stdout","time":9471.290462729,"data":"PROGRESS [ 157.8 min] lta_zs 1500 / 9046\n"}
+,{"stream_name":"stdout","time":9583.929717199,"data":"PROGRESS [ 159.7 min] lta_zs 2000 / 9046\n"}
+,{"stream_name":"stdout","time":9696.13629785,"data":"PROGRESS [ 161.6 min] lta_zs 2500 / 9046\n"}
+,{"stream_name":"stdout","time":9810.50121007,"data":"PROGRESS [ 163.5 min] lta_zs 3000 / 9046\n"}
+,{"stream_name":"stdout","time":9926.596776802,"data":"PROGRESS [ 165.4 min] lta_zs 3500 / 9046\n"}
+,{"stream_name":"stdout","time":10041.747706645,"data":"PROGRESS [ 167.3 min] lta_zs 4000 / 9046\n"}
+,{"stream_name":"stdout","time":10156.632639622,"data":"PROGRESS [ 169.3 min] lta_zs 4500 / 9046\n"}
+,{"stream_name":"stdout","time":10270.931502113,"data":"PROGRESS [ 171.2 min] lta_zs 5000 / 9046\n"}
+,{"stream_name":"stdout","time":10386.677940411,"data":"PROGRESS [ 173.1 min] lta_zs 5500 / 9046\n"}
+,{"stream_name":"stdout","time":10501.978460661,"data":"PROGRESS [ 175.0 min] lta_zs 6000 / 9046\n"}
+,{"stream_name":"stdout","time":10615.901863243,"data":"PROGRESS [ 176.9 min] lta_zs 6500 / 9046\n"}
+,{"stream_name":"stdout","time":10727.947332714,"data":"PROGRESS [ 178.8 min] lta_zs 7000 / 9046\n"}
+,{"stream_name":"stdout","time":10839.717324026,"data":"PROGRESS [ 180.6 min] lta_zs 7500 / 9046\n"}
+,{"stream_name":"stdout","time":10951.9584381,"data":"PROGRESS [ 182.5 min] lta_zs 8000 / 9046\n"}
+,{"stream_name":"stdout","time":11065.864438739,"data":"PROGRESS [ 184.4 min] lta_zs 8500 / 9046\n"}
+,{"stream_name":"stdout","time":11178.399830782,"data":"PROGRESS [ 186.3 min] lta_zs 9000 / 9046\n"}
+,{"stream_name":"stdout","time":11188.708279176,"data":"PROGRESS [ 186.5 min] lta_zs 9500 / 9046\n"}
+,{"stream_name":"stdout","time":11188.906617519,"data":"PROGRESS [ 186.5 min] timesfm25 lta_zs GM-MASE 0.2659\n"}
+,{"stream_name":"stdout","time":11189.194400459,"data":"PROGRESS [ 186.5 min] DONE\n"}
+,{"stream_name":"stderr","time":11198.426377085,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":11198.426408208,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":11198.73801957,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":11198.738054152,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":11199.594947,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":11200.756103265,"data":"[NbConvertApp] Writing 365496 bytes to __results__.html\n"}
+]

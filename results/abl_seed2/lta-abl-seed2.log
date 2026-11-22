@@ -1,0 +1,45 @@
+[{"stream_name":"stdout","time":6.516327839,"data":"PROGRESS [   0.1 min] pip ('chronos-forecasting==2.3.2',) rc 0\n"}
+,{"stream_name":"stderr","time":38.206587675,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stderr","time":38.316477549,"data":"[transformers] `torch_dtype` is deprecated! Use `dtype` instead!\n"}
+,{"stream_name":"stderr","time":43.268808258,"data":"\rLoading weights:   0%|          | 0/170 [00:00\u003c?, ?it/s]\rLoading weights:  72%|███████▏  | 123/170 [00:00\u003c00:00, 1229.08it/s]\rLoading weights: 100%|██████████| 170/170 [00:00\u003c00:00, 1218.12it/s]\n"}
+,{"stream_name":"stdout","time":97.100483732,"data":"PROGRESS [   1.6 min] pool built 30000 54s\n"}
+,{"stream_name":"stdout","time":107.39267216,"data":"PROGRESS [   1.8 min] step 0 val 0.4966 best 0.4966@0 ccf_scale 10.00\n"}
+,{"stream_name":"stdout","time":297.138014114,"data":"PROGRESS [   4.9 min] step 250 val 0.4873 best 0.4873@250 ccf_scale 10.02\n"}
+,{"stream_name":"stdout","time":488.082174257,"data":"PROGRESS [   8.1 min] step 500 val 0.4915 best 0.4873@250 ccf_scale 10.01\n"}
+,{"stream_name":"stdout","time":679.059015801,"data":"PROGRESS [  11.3 min] step 750 val 0.4923 best 0.4873@250 ccf_scale 10.01\n"}
+,{"stream_name":"stdout","time":869.526441809,"data":"PROGRESS [  14.5 min] step 1000 val 0.4899 best 0.4873@250 ccf_scale 10.01\n"}
+,{"stream_name":"stdout","time":1060.638106788,"data":"PROGRESS [  17.7 min] step 1250 val 0.4889 best 0.4873@250 ccf_scale 9.98\n"}
+,{"stream_name":"stdout","time":1251.13699303,"data":"PROGRESS [  20.8 min] step 1500 val 0.4852 best 0.4852@1500 ccf_scale 9.97\n"}
+,{"stream_name":"stdout","time":1441.884874905,"data":"PROGRESS [  24.0 min] step 1750 val 0.4881 best 0.4852@1500 ccf_scale 9.97\n"}
+,{"stream_name":"stdout","time":1632.763621235,"data":"PROGRESS [  27.2 min] step 2000 val 0.4863 best 0.4852@1500 ccf_scale 9.96\n"}
+,{"stream_name":"stdout","time":1823.038383057,"data":"PROGRESS [  30.4 min] step 2250 val 0.4871 best 0.4852@1500 ccf_scale 9.95\n"}
+,{"stream_name":"stdout","time":2013.160046261,"data":"PROGRESS [  33.5 min] step 2500 val 0.4855 best 0.4852@1500 ccf_scale 9.95\n"}
+,{"stream_name":"stdout","time":2203.221833066,"data":"PROGRESS [  36.7 min] step 2750 val 0.4859 best 0.4852@1500 ccf_scale 9.94\n"}
+,{"stream_name":"stdout","time":2393.256374553,"data":"PROGRESS [  39.9 min] step 3000 val 0.4860 best 0.4852@1500 ccf_scale 9.94\n"}
+,{"stream_name":"stdout","time":2411.484641185,"data":"PROGRESS [  40.2 min] synth_test lta_zs GM-MASE 0.4836 14s\n"}
+,{"stream_name":"stdout","time":2414.658634904,"data":"PROGRESS [  40.2 min] river windows {'train': 17425, 'val': 2912, 'test': 9046}\n"}
+,{"stream_name":"stdout","time":2451.40437207,"data":"PROGRESS [  40.8 min] river_val lta_zs GM-MASE 0.2256 33s\n"}
+,{"stream_name":"stdout","time":2563.773921072,"data":"PROGRESS [  42.7 min] river_test lta_zs GM-MASE 0.2441 101s\n"}
+,{"stream_name":"stdout","time":2571.264478992,"data":"PROGRESS [  42.8 min] step 0 val 0.2406 best 0.2406@0 ccf_scale 9.97\n"}
+,{"stream_name":"stdout","time":2689.829390871,"data":"PROGRESS [  44.8 min] step 150 val 0.2664 best 0.2406@0 ccf_scale 9.97\n"}
+,{"stream_name":"stdout","time":2808.467035731,"data":"PROGRESS [  46.8 min] step 300 val 0.2662 best 0.2406@0 ccf_scale 9.97\n"}
+,{"stream_name":"stdout","time":2927.252709488,"data":"PROGRESS [  48.8 min] step 450 val 0.2673 best 0.2406@0 ccf_scale 9.98\n"}
+,{"stream_name":"stdout","time":3045.729795557,"data":"PROGRESS [  50.7 min] step 600 val 0.2670 best 0.2406@0 ccf_scale 9.97\n"}
+,{"stream_name":"stdout","time":3164.168112392,"data":"PROGRESS [  52.7 min] step 750 val 0.2655 best 0.2406@0 ccf_scale 9.98\n"}
+,{"stream_name":"stdout","time":3282.657832182,"data":"PROGRESS [  54.7 min] step 900 val 0.2659 best 0.2406@0 ccf_scale 9.97\n"}
+,{"stream_name":"stdout","time":3401.095335637,"data":"PROGRESS [  56.7 min] step 1050 val 0.2665 best 0.2406@0 ccf_scale 9.98\n"}
+,{"stream_name":"stdout","time":3519.464631186,"data":"PROGRESS [  58.6 min] step 1200 val 0.2666 best 0.2406@0 ccf_scale 9.97\n"}
+,{"stream_name":"stdout","time":3637.973356956,"data":"PROGRESS [  60.6 min] step 1350 val 0.2667 best 0.2406@0 ccf_scale 9.97\n"}
+,{"stream_name":"stdout","time":3756.388861149,"data":"PROGRESS [  62.6 min] step 1500 val 0.2666 best 0.2406@0 ccf_scale 9.97\n"}
+,{"stream_name":"stdout","time":3792.564402739,"data":"PROGRESS [  63.2 min] river_val lta_ft GM-MASE 0.2256 33s\n"}
+,{"stream_name":"stdout","time":3904.698695419,"data":"PROGRESS [  65.1 min] river_test lta_ft GM-MASE 0.2441 101s\n"}
+,{"stream_name":"stderr","time":3904.952363223,"data":"/kaggle/src/script.py:183: RuntimeWarning: overflow encountered in cast\n"}
+,{"stream_name":"stderr","time":3904.952390531,"data":"  lta_ft=al[\"test\"].astype(np.float16), lta_zs=lta_align(lta_zs, W[\"test\"]).astype(np.float16))\n"}
+,{"stream_name":"stdout","time":3916.517263911,"data":"PROGRESS [  65.3 min] DONE\n"}
+,{"stream_name":"stderr","time":3925.072863766,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":3925.072912701,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":3925.313435206,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":3925.313477649,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":3926.095694445,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":3927.170831662,"data":"[NbConvertApp] Writing 415789 bytes to __results__.html\n"}
+]

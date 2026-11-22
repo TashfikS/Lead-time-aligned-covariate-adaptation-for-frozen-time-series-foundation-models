@@ -1,0 +1,18 @@
+\begin{table}[t]\centering\small
+\caption{Held-out synthetic test set (Chronos-2). Left: GM-MASE. Right: GM of per-series MASE ratios relative to CCF shifting; LTA range over three seeds; $p$: Wilcoxon, LTA seed 0 vs CCF.}
+\label{tab:synth}
+\resizebox{\linewidth}{!}{\begin{tabular}{lrrrrrrr|rrr}
+\toprule
+ & & \multicolumn{6}{c|}{GM-MASE} & \multicolumn{3}{c}{ratio to CCF} \\
+Family & $n$ & raw & CCF & top-3 & GCC-PHAT & oracle & LTA & oracle & LTA (seeds) & $p$ \\
+\midrule
+fixed lag, linear & 300 & 0.544 & 0.420 & 0.428 & 0.420 & 0.420 & 0.420 & 1.000 & 1.000--1.001 & 0.942 \\
+fixed lag, periodic & 200 & 0.666 & 0.460 & 0.479 & 0.459 & 0.459 & 0.459 & 0.998 & 0.998--0.998 & 0.191 \\
+fixed lag, nonlinear & 200 & 0.648 & 0.488 & 0.520 & 0.492 & 0.475 & 0.476 & 0.972 & 0.972--0.977 & $5.0\times10^{-5}$ \\
+distributed response & 200 & 0.529 & 0.479 & 0.464 & 0.478 & 0.470 & 0.432 & 0.982 & 0.903--0.917 & $<10^{-10}$ \\
+time-varying lag & 300 & 0.674 & 0.590 & 0.589 & 0.615 & 0.391 & 0.544 & 0.663 & 0.907--0.923 & $<10^{-10}$ \\
+uninformative & 100 & 0.719 & 0.733 & 0.740 & 0.730 & 0.734 & 0.734 & 1.001 & 0.995--1.000 & 0.514 \\
+all & 1300 & 0.616 & 0.502 & 0.510 & 0.507 & 0.453 & 0.483 & 0.903 & 0.960--0.963 & $<10^{-10}$ \\
+\bottomrule
+\end{tabular}}
+\end{table}

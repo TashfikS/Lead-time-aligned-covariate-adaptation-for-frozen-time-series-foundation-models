@@ -1,0 +1,22 @@
+{
+ "cfg": {
+  "backbone": "timesfm25",
+  "domain": "energy",
+  "splits": "test",
+  "arms": "uni,raw,randlag,ccf,ccf_pw,gcc_phat,top3,global,binned,lta_s0,lta_s1,lta_s2"
+ },
+ "res": {
+  "test/uni": 0.5460282881383643,
+  "test/raw": 0.5527875297839111,
+  "test/randlag": 0.5615017239417853,
+  "test/ccf": 0.5505783253542037,
+  "test/ccf_pw": 0.5534479879092127,
+  "test/gcc_phat": 0.5550111903896534,
+  "test/top3": 0.5515537119233228,
+  "test/global": 0.5530227766347885,
+  "test/binned": 0.5549334612029702,
+  "test/lta_s0": 0.5565908119146876,
+  "test/lta_s1": 0.5541955894541633,
+  "test/lta_s2": 0.5581418767977728
+ }
+}

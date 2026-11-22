@@ -1,0 +1,322 @@
+{
+ "ireland_gb/arx_full": {
+  "n_train": 25578,
+  "alpha": 10
+ },
+ "ireland_gb/lgbm_full": {
+  "n_train": 25578,
+  "iters": 89
+ },
+ "ireland_gb/arx_full_nocov": {
+  "n_train": 25578,
+  "alpha": 0.1
+ },
+ "ireland_gb/lgbm_full_nocov": {
+  "n_train": 25578,
+  "iters": 83
+ },
+ "ireland_gb/arx_short": {
+  "n_train": 1968,
+  "alpha": 1000
+ },
+ "ireland_gb/lgbm_short": {
+  "n_train": 1968,
+  "iters": 23
+ },
+ "ireland_gb/arx_short_nocov": {
+  "n_train": 1968,
+  "alpha": 1000
+ },
+ "ireland_gb/lgbm_short_nocov": {
+  "n_train": 1968,
+  "iters": 20
+ },
+ "gb_netherlands/arx_full": {
+  "n_train": 24636,
+  "alpha": 1000
+ },
+ "gb_netherlands/lgbm_full": {
+  "n_train": 24636,
+  "iters": 73
+ },
+ "gb_netherlands/arx_full_nocov": {
+  "n_train": 24636,
+  "alpha": 0.1
+ },
+ "gb_netherlands/lgbm_full_nocov": {
+  "n_train": 24636,
+  "iters": 69
+ },
+ "gb_netherlands/arx_short": {
+  "n_train": 1992,
+  "alpha": 1000
+ },
+ "gb_netherlands/lgbm_short": {
+  "n_train": 1992,
+  "iters": 11
+ },
+ "gb_netherlands/arx_short_nocov": {
+  "n_train": 1992,
+  "alpha": 1000
+ },
+ "gb_netherlands/lgbm_short_nocov": {
+  "n_train": 1992,
+  "iters": 14
+ },
+ "netherlands_tennet/arx_full": {
+  "n_train": 25093,
+  "alpha": 0.1
+ },
+ "netherlands_tennet/lgbm_full": {
+  "n_train": 25093,
+  "iters": 113
+ },
+ "netherlands_tennet/arx_full_nocov": {
+  "n_train": 25093,
+  "alpha": 0.1
+ },
+ "netherlands_tennet/lgbm_full_nocov": {
+  "n_train": 25093,
+  "iters": 102
+ },
+ "netherlands_tennet/arx_short": {
+  "n_train": 2160,
+  "alpha": 100
+ },
+ "netherlands_tennet/lgbm_short": {
+  "n_train": 2160,
+  "iters": 26
+ },
+ "netherlands_tennet/arx_short_nocov": {
+  "n_train": 2160,
+  "alpha": 1000
+ },
+ "netherlands_tennet/lgbm_short_nocov": {
+  "n_train": 2160,
+  "iters": 24
+ },
+ "france_amprion/arx_full": {
+  "n_train": 26135,
+  "alpha": 0.1
+ },
+ "france_amprion/lgbm_full": {
+  "n_train": 26135,
+  "iters": 136
+ },
+ "france_amprion/arx_full_nocov": {
+  "n_train": 26135,
+  "alpha": 10
+ },
+ "france_amprion/lgbm_full_nocov": {
+  "n_train": 26135,
+  "iters": 72
+ },
+ "france_amprion/arx_short": {
+  "n_train": 2160,
+  "alpha": 1
+ },
+ "france_amprion/lgbm_short": {
+  "n_train": 2160,
+  "iters": 15
+ },
+ "france_amprion/arx_short_nocov": {
+  "n_train": 2160,
+  "alpha": 1000
+ },
+ "france_amprion/lgbm_short_nocov": {
+  "n_train": 2160,
+  "iters": 21
+ },
+ "amprion_50hertz/arx_full": {
+  "n_train": 26136,
+  "alpha": 10
+ },
+ "amprion_50hertz/lgbm_full": {
+  "n_train": 26136,
+  "iters": 141
+ },
+ "amprion_50hertz/arx_full_nocov": {
+  "n_train": 26136,
+  "alpha": 0.1
+ },
+ "amprion_50hertz/lgbm_full_nocov": {
+  "n_train": 26136,
+  "iters": 78
+ },
+ "amprion_50hertz/arx_short": {
+  "n_train": 2160,
+  "alpha": 100
+ },
+ "amprion_50hertz/lgbm_short": {
+  "n_train": 2160,
+  "iters": 32
+ },
+ "amprion_50hertz/arx_short_nocov": {
+  "n_train": 2160,
+  "alpha": 1000
+ },
+ "amprion_50hertz/lgbm_short_nocov": {
+  "n_train": 2160,
+  "iters": 25
+ },
+ "dk1_dk2/arx_full": {
+  "n_train": 26135,
+  "alpha": 10
+ },
+ "dk1_dk2/lgbm_full": {
+  "n_train": 26135,
+  "iters": 106
+ },
+ "dk1_dk2/arx_full_nocov": {
+  "n_train": 26135,
+  "alpha": 1000
+ },
+ "dk1_dk2/lgbm_full_nocov": {
+  "n_train": 26135,
+  "iters": 76
+ },
+ "dk1_dk2/arx_short": {
+  "n_train": 2160,
+  "alpha": 100
+ },
+ "dk1_dk2/lgbm_short": {
+  "n_train": 2160,
+  "iters": 14
+ },
+ "dk1_dk2/arx_short_nocov": {
+  "n_train": 2160,
+  "alpha": 1000
+ },
+ "dk1_dk2/lgbm_short_nocov": {
+  "n_train": 2160,
+  "iters": 21
+ },
+ "50hertz_poland/arx_full": {
+  "n_train": 26135,
+  "alpha": 1
+ },
+ "50hertz_poland/lgbm_full": {
+  "n_train": 26135,
+  "iters": 189
+ },
+ "50hertz_poland/arx_full_nocov": {
+  "n_train": 26135,
+  "alpha": 0.1
+ },
+ "50hertz_poland/lgbm_full_nocov": {
+  "n_train": 26135,
+  "iters": 135
+ },
+ "50hertz_poland/arx_short": {
+  "n_train": 2160,
+  "alpha": 100
+ },
+ "50hertz_poland/lgbm_short": {
+  "n_train": 2160,
+  "iters": 27
+ },
+ "50hertz_poland/arx_short_nocov": {
+  "n_train": 2160,
+  "alpha": 1000
+ },
+ "50hertz_poland/lgbm_short_nocov": {
+  "n_train": 2160,
+  "iters": 19
+ },
+ "dk2_se4/arx_full": {
+  "n_train": 26040,
+  "alpha": 1000
+ },
+ "dk2_se4/lgbm_full": {
+  "n_train": 26040,
+  "iters": 61
+ },
+ "dk2_se4/arx_full_nocov": {
+  "n_train": 26040,
+  "alpha": 10
+ },
+ "dk2_se4/lgbm_full_nocov": {
+  "n_train": 26040,
+  "iters": 85
+ },
+ "dk2_se4/arx_short": {
+  "n_train": 2160,
+  "alpha": 1000
+ },
+ "dk2_se4/lgbm_short": {
+  "n_train": 2160,
+  "iters": 15
+ },
+ "dk2_se4/arx_short_nocov": {
+  "n_train": 2160,
+  "alpha": 1000
+ },
+ "dk2_se4/lgbm_short_nocov": {
+  "n_train": 2160,
+  "iters": 21
+ },
+ "poland_lithuania/arx_full": {
+  "n_train": 23389,
+  "alpha": 0.1
+ },
+ "poland_lithuania/lgbm_full": {
+  "n_train": 23389,
+  "iters": 126
+ },
+ "poland_lithuania/arx_full_nocov": {
+  "n_train": 23389,
+  "alpha": 10
+ },
+ "poland_lithuania/lgbm_full_nocov": {
+  "n_train": 23389,
+  "iters": 117
+ },
+ "poland_lithuania/arx_short": {
+  "n_train": 2160,
+  "alpha": 1000
+ },
+ "poland_lithuania/lgbm_short": {
+  "n_train": 2160,
+  "iters": 20
+ },
+ "poland_lithuania/arx_short_nocov": {
+  "n_train": 2160,
+  "alpha": 1000
+ },
+ "poland_lithuania/lgbm_short_nocov": {
+  "n_train": 2160,
+  "iters": 18
+ },
+ "se3_finland/arx_full": {
+  "n_train": 26040,
+  "alpha": 0.1
+ },
+ "se3_finland/lgbm_full": {
+  "n_train": 26040,
+  "iters": 97
+ },
+ "se3_finland/arx_full_nocov": {
+  "n_train": 26040,
+  "alpha": 0.1
+ },
+ "se3_finland/lgbm_full_nocov": {
+  "n_train": 26040,
+  "iters": 91
+ },
+ "se3_finland/arx_short": {
+  "n_train": 2160,
+  "alpha": 10
+ },
+ "se3_finland/lgbm_short": {
+  "n_train": 2160,
+  "iters": 18
+ },
+ "se3_finland/arx_short_nocov": {
+  "n_train": 2160,
+  "alpha": 10
+ },
+ "se3_finland/lgbm_short_nocov": {
+  "n_train": 2160,
+  "iters": 27
+ }
+}

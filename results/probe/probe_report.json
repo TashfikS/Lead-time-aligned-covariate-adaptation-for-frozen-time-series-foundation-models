@@ -1,0 +1,109 @@
+{
+ "steps": {
+  "env": {
+   "ok": true,
+   "out": {
+    "py": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+    "torch": "2.11.0+cu130",
+    "cuda": true,
+    "gpu": "Tesla T4",
+    "ngpu": 2
+   }
+  },
+  "chronos2": {
+   "ok": true,
+   "out": {
+    "pip_rc": 0,
+    "version": "2.3.2",
+    "predict_sig": "(inputs: Union[torch.Tensor, numpy.ndarray, Sequence[torch.Tensor | numpy.ndarray], Sequence[Mapping[str, Union[torch.Tensor, numpy.ndarray, Mapping[str, torch.Tensor | numpy.ndarray]]]], Sequence[chronos.chronos2.preprocess.PreparedInput]], prediction_length: int | None = None, batch_size: int = 256, context_length: int | None = None, cross_learning: bool = False, limit_prediction_length: bool = False, **kwargs) -> list[torch.Tensor]",
+    "fwd_sig": "(context: torch.Tensor, context_mask: torch.Tensor | None = None, group_ids: torch.Tensor | None = None, future_covariates: torch.Tensor | None = None, future_covariates_mask: torch.Tensor | None = None, num_output_patches: int = 1, future_target: torch.Tensor | None = None, future_target_mask: torch.Tensor | None = None, output_attentions: bool = False) -> chronos.chronos2.model.Chronos2Output",
+    "quantiles": [
+     0.01,
+     0.05,
+     0.1,
+     0.15,
+     0.2,
+     0.25,
+     0.3,
+     0.35,
+     0.4,
+     0.45,
+     0.5,
+     0.55,
+     0.6,
+     0.65,
+     0.7,
+     0.75,
+     0.8,
+     0.85,
+     0.9,
+     0.95,
+     0.99
+    ],
+    "out_patch": 16,
+    "cfg": {
+     "context_length": "8192",
+     "output_patch_size": "16",
+     "input_patch_size": "16",
+     "input_patch_stride": "16",
+     "quantiles": "[0.01, 0.05, 0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4, 0.45, 0.5, 0.55, 0.6, 0.65, 0",
+     "use_reg_token": "True",
+     "use_arcsinh": "True",
+     "max_output_patches": "64",
+     "time_encoding_scale": "8192"
+    },
+    "mae": {
+     "uni": 0.882391097827265,
+     "raw_past": 0.3104676890113412,
+     "oracle_past_only": 0.8829602557505263,
+     "oracle_future_known": 0.06808759722430334
+    },
+    "grad_norm_cov_row": NaN
+   }
+  },
+  "timesfm25": {
+   "ok": true,
+   "out": {
+    "pip_pypi_rc": 0,
+    "pip_pypi_msg": "",
+    "version": "?",
+    "dir": [
+     "ForecastConfig",
+     "TimesFM3Forecaster",
+     "TimesFM3Torch",
+     "TimesFM_2p5_200M_torch",
+     "configs",
+     "timesfm_2p5",
+     "timesfm_2p5_torch",
+     "torch"
+    ],
+    "ForecastConfig_sig": "(max_context: int = 0, max_horizon: int = 0, normalize_inputs: bool = False, window_size: int = 0, per_core_batch_size: int = 1, use_continuous_quantile_head: bool = False, force_flip_invariance: bool = True, infer_is_positive: bool = True, fix_quantile_crossing: bool = False, return_backcast: bool = False) -> None",
+    "uni_mae": 0.7982394997509461,
+    "fwc_sig": "(inputs: list[typing.Sequence[float]], dynamic_numerical_covariates: dict[str, typing.Sequence[typing.Sequence[float]]] | None = None, dynamic_categorical_covariates: dict[str, typing.Sequence[typing.Sequence[int | str]]] | None = None, static_numerical_covariates: dict[str, typing.Sequence[float]] | None = None, static_categorical_covariates: dict[str, typing.Sequence[int | str]] | None = None, xreg_mode: str = 'xreg + timesfm', normalize_xreg_target_per_input: bool = True, ridge: float = 0.0, max_rows_per_col: int = 0, force_on_cpu: bool = False)",
+    "fwc_return_type": "<class 'tuple'>",
+    "fwc_len": 2,
+    "fwc_elem_types": [
+     "<class 'list'>",
+     "<class 'list'>"
+    ],
+    "mae": {
+     "uni": 0.7982394997509461,
+     "raw_cov_future_held_last": 0.7485607326481803,
+     "oracle_future_known": 0.062188823410206116
+    }
+   }
+  },
+  "tabpfn_ts": {
+   "ok": false,
+   "err": "ValueError('Provide exactly one of future_df or prediction_length')",
+   "tb": "Traceback (most recent call last):\n  File \"/kaggle/src/script.py\", line 17, in step\n    REP[\"steps\"][name] = {\"ok\": True, \"out\": fn()}\n                                             ~~^^\n  File \"/kaggle/src/script.py\", line 136, in tabpfn_probe\n    pr = p.predict_df(context_df=ctx, future_df=fut, prediction_length=H)\n  File \"/usr/local/lib/python3.13/dist-packages/tabpfn_time_series/pipeline.py\", line 524, in predict_df\n    raise ValueError(\"Provide exactly one of future_df or prediction_length\")\nValueError: Provide exactly one of future_df or prediction_length\n"
+  },
+  "moirai11": {
+   "ok": false,
+   "err": "AttributeError(\"module 'omegaconf._impl' has no attribute '_eager_resolution'\")",
+   "tb": "Traceback (most recent call last):\n  File \"/kaggle/src/script.py\", line 17, in step\n    REP[\"steps\"][name] = {\"ok\": True, \"out\": fn()}\n                                             ~~^^\n  File \"/kaggle/src/script.py\", line 158, in moirai_probe\n    mod = MoiraiModule.from_pretrained(\"Salesforce/moirai-1.1-R-base\")\n  File \"/usr/local/lib/python3.13/dist-packages/huggingface_hub/utils/_validators.py\", line 89, in _inner_fn\n    return fn(*args, **kwargs)\n  File \"/usr/local/lib/python3.13/dist-packages/huggingface_hub/hub_mixin.py\", line 520, in from_pretrained\n    config[key] = cls._decode_arg(expected_type, value)\n                  ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.13/dist-packages/huggingface_hub/hub_mixin.py\", line 368, in _decode_arg\n    return decoder(value)\n  File \"/usr/local/lib/python3.13/dist-packages/uni2ts/model/moirai/module.py\", line 79, in decode_distr_output\n    return instantiate(config, _convert_=\"all\")\n  File \"/usr/local/lib/python3.13/dist-packages/hydra/_internal/instantiate/_instantiate2.py\", line 251, in instantiate\n    return _instantiate_impl(config, args, kwargs)\n  File \"/usr/local/lib/python3.13/dist-packages/hydra/_internal/instantiate/_instantiate2.py\", line 293, in _instantiate_impl\n    OmegaConf.resolve(config)\n    ~~~~~~~~~~~~~~~~~^^^^^^^^\n  File \"/usr/local/lib/python3.13/dist-packages/omegaconf/omegaconf.py\", line 1520, in resolve\nAttributeError: module 'omegaconf._impl' has no attribute '_eager_resolution'\n"
+  }
+ },
+ "toy": "y_t = 2*cov_{t-24} + noise; C=512 H=24; the oracle-shifted covariate is known over the horizon",
+ "elapsed_min": 1.774956464767456
+}

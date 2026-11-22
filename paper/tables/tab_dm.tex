@@ -1,0 +1,16 @@
+\begin{table}[t]\centering\small
+\caption{Per-pair Diebold--Mariano tests with the Harvey--Leybourne--Newbold correction (Chronos-2 arms and CoRA; loss: log MASE per window, windows in time order, Newey--West variance). Entries: pairs significantly better / significantly worse at the 5\% level, of the number of pairs in brackets. TrafficLead: filtered pairs (D25).}
+\label{tab:dm}
+\resizebox{\linewidth}{!}{\begin{tabular}{lcccc}
+\toprule
+Comparison & RiverLead (9) & AirLead (10) & EnergyLead (10) & TrafficLead (6) \\
+\midrule
+raw / no covariate & 8 / 0 & 10 / 0 & 8 / 0 & 5 / 0 \\
+best classical / raw & 8 / 0 & 7 / 0 & 6 / 0 & 0 / 3 \\
+\lta{} / raw & 8 / 0 & 5 / 0 & 0 / 4 & 0 / 2 \\
+\lta{} / best classical & 3 / 0 & 1 / 0 & 0 / 6 & 1 / 0 \\
+random lag / raw & 1 / 2 & 10 / 0 & 0 / 8 & 0 / 3 \\
+CoRA / \lta{} & 1 / 6 & 10 / 0 & 8 / 0 & 0 / 5 \\
+\bottomrule
+\end{tabular}}
+\end{table}

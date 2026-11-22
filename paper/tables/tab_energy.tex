@@ -1,0 +1,23 @@
+\begin{table}[t]\centering\small
+\caption{EnergyLead test split (10 pairs, \num{6313} windows; P5). Pooled GM-MASE ratios with 7-day block-bootstrap 95\% intervals and pairs improved (of 10). Best classical arm on validation (Chronos-2): global. The fitted global train lags are 0--2\,h for nine of ten pairs (Ireland$\to$GB: 8\,h).}
+\label{tab:energy}
+\resizebox{\linewidth}{!}{\begin{tabular}{lrrlrrlr}
+\toprule
+ & \multicolumn{4}{c}{Chronos-2} & \multicolumn{3}{c}{TimesFM-2.5 (XReg)} \\
+Arm & GM-MASE & ratio to raw & 95\% CI & pairs & GM-MASE & ratio to raw & pairs \\
+\midrule
+no covariate & 0.538 & 1.018 & [1.014, 1.022] & 1/10 & 0.546 & 0.988 & 6/10 \\
+raw past covariate & 0.529 & -- & -- & -- & 0.553 & -- & -- \\
+random lag (control) & 0.549 & 1.038 & [1.028, 1.048] & 0/10 & 0.562 & 1.016 & 1/10 \\
+GCC-PHAT & 0.530 & 1.003 & [0.999, 1.007] & 4/10 & 0.555 & 1.004 & 5/10 \\
+CCF & 0.532 & 1.006 & [1.000, 1.012] & 3/10 & 0.551 & 0.996 & 6/10 \\
+global train lag & 0.527 & 0.996 & [0.993, 0.999] & 9/10 & 0.553 & 1.000 & 7/10 \\
+CCF, prewhitened & 0.534 & 1.010 & [1.004, 1.015] & 4/10 & 0.554 & 1.001 & 7/10 \\
+top-3 CCF peaks & 0.541 & 1.022 & [1.012, 1.031] & 2/10 & 0.552 & 0.998 & 5/10 \\
+level-binned train lag & 0.531 & 1.003 & [0.999, 1.008] & 6/10 & 0.555 & 1.004 & 3/10 \\
+LTA, seed 0 & 0.536 & 1.014 & [1.007, 1.021] & 3/10 & 0.557 & 1.007 & 4/10 \\
+LTA, seed 1 & 0.537 & 1.016 & [1.008, 1.024] & 3/10 & 0.554 & 1.003 & 4/10 \\
+LTA, seed 2 & 0.537 & 1.015 & [1.007, 1.022] & 3/10 & 0.558 & 1.010 & 2/10 \\
+\bottomrule
+\end{tabular}}
+\end{table}

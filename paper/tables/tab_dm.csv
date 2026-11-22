@@ -1,0 +1,25 @@
+domain,comparison,sig_better,sig_worse
+river,raw / no covariate,8,0
+air,raw / no covariate,10,0
+energy,raw / no covariate,8,0
+traffic,raw / no covariate,5,0
+river,best classical / raw,8,0
+air,best classical / raw,7,0
+energy,best classical / raw,6,0
+traffic,best classical / raw,0,3
+river,\lta{} / raw,8,0
+air,\lta{} / raw,5,0
+energy,\lta{} / raw,0,4
+traffic,\lta{} / raw,0,2
+river,\lta{} / best classical,3,0
+air,\lta{} / best classical,1,0
+energy,\lta{} / best classical,0,6
+traffic,\lta{} / best classical,1,0
+river,random lag / raw,1,2
+air,random lag / raw,10,0
+energy,random lag / raw,0,8
+traffic,random lag / raw,0,3
+river,CoRA / \lta{},1,6
+air,CoRA / \lta{},10,0
+energy,CoRA / \lta{},8,0
+traffic,CoRA / \lta{},0,5

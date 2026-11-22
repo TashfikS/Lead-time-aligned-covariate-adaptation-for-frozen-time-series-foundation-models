@@ -1,0 +1,18 @@
+{
+ "cfg": {
+  "steps": "1000",
+  "ft_bs": "256",
+  "lr_full": "1e-6",
+  "lr_lora": "1e-5"
+ },
+ "runs": {
+  "full": {
+   "lr": 1e-06,
+   "min": 39.431403923034665
+  },
+  "lora": {
+   "err": "ImportError('Found an incompatible version of torchao. Found version 0.10.0, but only versions above 0.16.0 are supported')",
+   "tb": "Traceback (most recent call last):\n  File \"/kaggle/src/script.py\", line 54, in <module>\n    newpipe = base.pipe.fit(inputs=tr, prediction_length=H, validation_inputs=va, finetune_mode=mode,\n                            context_length=C, learning_rate=lr, num_steps=int(CFG.get(\"steps\", 1000)),\n                            batch_size=int(CFG.get(\"ft_bs\", 256)), output_dir=os.path.join(OUT, f\"ft_{mode}\"),\n                            report_to=\"none\")\n  File \"/usr/local/lib/python3.13/dist-packages/chronos/chronos2/pipeline.py\", line 225, in fit\n    model = get_peft_model(model, lora_config)\n  File \"/usr/local/lib/python3.13/dist-packages/peft/mapping_func.py\", line 190, in get_peft_model\n    return PeftModel(\n        model,\n    ...<3 lines>...\n        low_cpu_mem_usage=low_cpu_mem_usage,\n    )\n  File \"/usr/local/lib/python3.13/dist-packages/peft/peft_model.py\", line 177, in __init__\n    self.base_model = cls(model, {adapter_name: peft_config}, adapter_name)\n                      ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.13/dist-packages/peft/tuners/tuners_utils.py\", line 344, in __init__\n    self.inject_adapter(self.model, adapter_name, low_cpu_mem_usage=low_cpu_mem_usage, state_dict=state_dict)\n    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.13/dist-packages/peft/tuners/tuners_utils.py\", line 978, in inject_adapter\n    self._create_and_replace(\n    ~~~~~~~~~~~~~~~~~~~~~~~~^\n        peft_config, adapter_name, target, target_name, parent, current_key=key\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"/usr/local/lib/python3.13/dist-packages/peft/tuners/lora/model.py\", line 389, in _create_and_replace\n    new_module = self._create_new_module(lora_config, adapter_name, target, device_map=device_map, **kwargs)\n  File \"/usr/local/lib/python3.13/dist-packages/peft/tuners/lora/model.py\", line 552, in _create_new_module\n    new_module = dispatcher(target, adapter_name, config=lora_config, **kwargs)\n  File \"/usr/local/lib/python3.13/dist-packages/peft/tuners/lora/torchao.py\", line 160, in dispatch_torchao\n    if not is_torchao_available():\n           ~~~~~~~~~~~~~~~~~~~~^^\n  File \"/usr/local/lib/python3.13/dist-packages/peft/import_utils.py\", line 162, in is_torchao_available\n    raise ImportError(\n    ...<2 lines>...\n    )\nImportError: Found an incompatible version of torchao. Found version 0.10.0, but only versions above 0.16.0 are supported\n"
+  }
+ }
+}

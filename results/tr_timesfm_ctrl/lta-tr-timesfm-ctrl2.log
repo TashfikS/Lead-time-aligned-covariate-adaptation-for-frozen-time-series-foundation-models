@@ -1,0 +1,66 @@
+[{"stream_name":"stdout","time":24.079438717,"data":"PROGRESS [   0.4 min] pip ('timesfm[torch,xreg]',) rc 0 \n"}
+,{"stream_name":"stdout","time":28.180328208,"data":"PROGRESS [   0.5 min] backbone timesfm25 windows 9046 aligned arrays ['lta_zs', 'lta_ft']\n"}
+,{"stream_name":"stderr","time":34.852015859,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stdout","time":102.355092989,"data":"PROGRESS [   1.7 min] uni 500 / 9046\n"}
+,{"stream_name":"stdout","time":156.383751318,"data":"PROGRESS [   2.6 min] uni 1000 / 9046\n"}
+,{"stream_name":"stdout","time":210.458509062,"data":"PROGRESS [   3.5 min] uni 1500 / 9046\n"}
+,{"stream_name":"stdout","time":264.411806334,"data":"PROGRESS [   4.4 min] uni 2000 / 9046\n"}
+,{"stream_name":"stdout","time":318.457838597,"data":"PROGRESS [   5.3 min] uni 2500 / 9046\n"}
+,{"stream_name":"stdout","time":371.972431178,"data":"PROGRESS [   6.2 min] uni 3000 / 9046\n"}
+,{"stream_name":"stdout","time":424.957544602,"data":"PROGRESS [   7.1 min] uni 3500 / 9046\n"}
+,{"stream_name":"stdout","time":477.974937951,"data":"PROGRESS [   7.9 min] uni 4000 / 9046\n"}
+,{"stream_name":"stdout","time":530.516673807,"data":"PROGRESS [   8.8 min] uni 4500 / 9046\n"}
+,{"stream_name":"stdout","time":582.993119469,"data":"PROGRESS [   9.7 min] uni 5000 / 9046\n"}
+,{"stream_name":"stdout","time":635.77548113,"data":"PROGRESS [  10.6 min] uni 5500 / 9046\n"}
+,{"stream_name":"stdout","time":688.546240395,"data":"PROGRESS [  11.5 min] uni 6000 / 9046\n"}
+,{"stream_name":"stdout","time":740.958522678,"data":"PROGRESS [  12.3 min] uni 6500 / 9046\n"}
+,{"stream_name":"stdout","time":793.537942867,"data":"PROGRESS [  13.2 min] uni 7000 / 9046\n"}
+,{"stream_name":"stdout","time":845.787208605,"data":"PROGRESS [  14.1 min] uni 7500 / 9046\n"}
+,{"stream_name":"stdout","time":898.478706265,"data":"PROGRESS [  15.0 min] uni 8000 / 9046\n"}
+,{"stream_name":"stdout","time":950.629313598,"data":"PROGRESS [  15.8 min] uni 8500 / 9046\n"}
+,{"stream_name":"stdout","time":1003.062197751,"data":"PROGRESS [  16.7 min] uni 9000 / 9046\n"}
+,{"stream_name":"stdout","time":1007.850714612,"data":"PROGRESS [  16.8 min] uni 9500 / 9046\n"}
+,{"stream_name":"stdout","time":1008.039118847,"data":"PROGRESS [  16.8 min] timesfm25 uni GM-MASE 0.2642\n"}
+,{"stream_name":"stderr","time":1018.228480266,"data":"ERROR:jax._src.xla_bridge:Jax plugin configuration error: Exception when calling jax_plugins.xla_cuda12.initialize()\n"}
+,{"stream_name":"stderr","time":1018.22851114,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":1018.228517931,"data":"  File \"/usr/local/lib/python3.13/dist-packages/jax/_src/xla_bridge.py\", line 495, in discover_pjrt_plugins\n"}
+,{"stream_name":"stderr","time":1018.228524115,"data":"    plugin_module.initialize()\n"}
+,{"stream_name":"stderr","time":1018.228529711,"data":"    ~~~~~~~~~~~~~~~~~~~~~~~~^^\n"}
+,{"stream_name":"stderr","time":1018.228535256,"data":"  File \"/usr/local/lib/python3.13/dist-packages/jax_plugins/xla_cuda12/__init__.py\", line 373, in initialize\n"}
+,{"stream_name":"stderr","time":1018.228541126,"data":"    c_api = xb.register_plugin(\n"}
+,{"stream_name":"stderr","time":1018.228558094,"data":"        'cuda', priority=500, library_path=str(path), options=options\n"}
+,{"stream_name":"stderr","time":1018.228563428,"data":"    )\n"}
+,{"stream_name":"stderr","time":1018.228568401,"data":"  File \"/usr/local/lib/python3.13/dist-packages/jax/_src/xla_bridge.py\", line 637, in register_plugin\n"}
+,{"stream_name":"stderr","time":1018.228575584,"data":"    c_api = xla_client.load_pjrt_plugin_dynamically(plugin_name, library_path)\n"}
+,{"stream_name":"stderr","time":1018.228596553,"data":"  File \"/usr/local/lib/python3.13/dist-packages/jaxlib/xla_client.py\", line 115, in load_pjrt_plugin_dynamically\n"}
+,{"stream_name":"stderr","time":1018.228602083,"data":"    return _xla.load_pjrt_plugin(plugin_name, library_path, c_api=None)\n"}
+,{"stream_name":"stderr","time":1018.228606234,"data":"           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":1018.22861045,"data":"jax.errors.JaxRuntimeError: ALREADY_EXISTS: PJRT_Api already exists for device type cuda\n"}
+,{"stream_name":"stdout","time":1131.535416648,"data":"PROGRESS [  18.8 min] randlag 500 / 9046\n"}
+,{"stream_name":"stdout","time":1244.379580111,"data":"PROGRESS [  20.7 min] randlag 1000 / 9046\n"}
+,{"stream_name":"stdout","time":1372.526002011,"data":"PROGRESS [  22.9 min] randlag 1500 / 9046\n"}
+,{"stream_name":"stdout","time":1500.874260752,"data":"PROGRESS [  25.0 min] randlag 2000 / 9046\n"}
+,{"stream_name":"stdout","time":1626.08848643,"data":"PROGRESS [  27.1 min] randlag 2500 / 9046\n"}
+,{"stream_name":"stdout","time":1756.657496558,"data":"PROGRESS [  29.3 min] randlag 3000 / 9046\n"}
+,{"stream_name":"stdout","time":1888.334007123,"data":"PROGRESS [  31.5 min] randlag 3500 / 9046\n"}
+,{"stream_name":"stdout","time":2021.566839804,"data":"PROGRESS [  33.7 min] randlag 4000 / 9046\n"}
+,{"stream_name":"stdout","time":2154.169104185,"data":"PROGRESS [  35.9 min] randlag 4500 / 9046\n"}
+,{"stream_name":"stdout","time":2284.567826404,"data":"PROGRESS [  38.1 min] randlag 5000 / 9046\n"}
+,{"stream_name":"stdout","time":2399.970691112,"data":"PROGRESS [  40.0 min] randlag 5500 / 9046\n"}
+,{"stream_name":"stdout","time":2510.627008483,"data":"PROGRESS [  41.8 min] randlag 6000 / 9046\n"}
+,{"stream_name":"stdout","time":2629.322513148,"data":"PROGRESS [  43.8 min] randlag 6500 / 9046\n"}
+,{"stream_name":"stdout","time":2744.855354018,"data":"PROGRESS [  45.7 min] randlag 7000 / 9046\n"}
+,{"stream_name":"stdout","time":2857.73683424,"data":"PROGRESS [  47.6 min] randlag 7500 / 9046\n"}
+,{"stream_name":"stdout","time":2970.419006667,"data":"PROGRESS [  49.5 min] randlag 8000 / 9046\n"}
+,{"stream_name":"stdout","time":3081.999751025,"data":"PROGRESS [  51.3 min] randlag 8500 / 9046\n"}
+,{"stream_name":"stdout","time":3193.686268524,"data":"PROGRESS [  53.2 min] randlag 9000 / 9046\n"}
+,{"stream_name":"stdout","time":3204.032387845,"data":"PROGRESS [  53.4 min] randlag 9500 / 9046\n"}
+,{"stream_name":"stdout","time":3204.223500239,"data":"PROGRESS [  53.4 min] timesfm25 randlag GM-MASE 0.3557\n"}
+,{"stream_name":"stdout","time":3204.319589239,"data":"PROGRESS [  53.4 min] DONE\n"}
+,{"stream_name":"stderr","time":3211.247199739,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":3211.247226443,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":3211.495461503,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":3211.495484908,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":3212.284391947,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":3213.318257192,"data":"[NbConvertApp] Writing 366998 bytes to __results__.html\n"}
+]

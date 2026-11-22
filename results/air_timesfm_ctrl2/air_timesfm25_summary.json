@@ -1,0 +1,11 @@
+{
+ "cfg": {
+  "backbone": "timesfm25",
+  "splits": "test",
+  "arms": "uni,randlag"
+ },
+ "res": {
+  "test/uni": 0.36701099830152734,
+  "test/randlag": 0.4775738556119164
+ }
+}

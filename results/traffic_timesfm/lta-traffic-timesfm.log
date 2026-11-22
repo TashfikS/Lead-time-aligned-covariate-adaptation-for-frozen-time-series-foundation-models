@@ -1,0 +1,43 @@
+[{"stream_name":"stdout","time":4.626776917,"data":"PROGRESS [   0.1 min] pip ('chronos-forecasting==2.3.2',) rc 0\n"}
+,{"stream_name":"stdout","time":19.551120009,"data":"PROGRESS [   0.3 min] pip ('timesfm[torch,xreg]',) rc 0\n"}
+,{"stream_name":"stdout","time":28.311858861,"data":"PROGRESS [   0.5 min] windows {'train': 10360, 'val': 3600, 'test': 7320} event frac test 0.116\n"}
+,{"stream_name":"stdout","time":34.4769868,"data":"PROGRESS [   0.6 min] global lags {'101N_401908': 107, '101N_402359': 103, '101S_400743': 29, '680S_407184': 112, '680S_407185': 111, '85N_400148': 8, '85N_400336': 3, '85S_400209': 8, '85S_400528': 4, '87N_404452': 107}\n"}
+,{"stream_name":"stdout","time":47.786166422,"data":"PROGRESS [   0.8 min] aligned s0\n"}
+,{"stream_name":"stdout","time":56.804290736,"data":"PROGRESS [   0.9 min] aligned s1\n"}
+,{"stream_name":"stdout","time":65.78816955,"data":"PROGRESS [   1.1 min] aligned s2\n"}
+,{"stream_name":"stderr","time":66.776005039,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stdout","time":892.760420679,"data":"PROGRESS [  14.9 min] timesfm25 test uni GM-MASE 0.2648 817s\n"}
+,{"stream_name":"stderr","time":898.902643452,"data":"ERROR:jax._src.xla_bridge:Jax plugin configuration error: Exception when calling jax_plugins.xla_cuda12.initialize()\n"}
+,{"stream_name":"stderr","time":898.902674542,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":898.902689739,"data":"  File \"/usr/local/lib/python3.13/dist-packages/jax/_src/xla_bridge.py\", line 495, in discover_pjrt_plugins\n"}
+,{"stream_name":"stderr","time":898.902695352,"data":"    plugin_module.initialize()\n"}
+,{"stream_name":"stderr","time":898.902699719,"data":"    ~~~~~~~~~~~~~~~~~~~~~~~~^^\n"}
+,{"stream_name":"stderr","time":898.902704844,"data":"  File \"/usr/local/lib/python3.13/dist-packages/jax_plugins/xla_cuda12/__init__.py\", line 373, in initialize\n"}
+,{"stream_name":"stderr","time":898.902709629,"data":"    c_api = xb.register_plugin(\n"}
+,{"stream_name":"stderr","time":898.902713839,"data":"        'cuda', priority=500, library_path=str(path), options=options\n"}
+,{"stream_name":"stderr","time":898.902718194,"data":"    )\n"}
+,{"stream_name":"stderr","time":898.902722301,"data":"  File \"/usr/local/lib/python3.13/dist-packages/jax/_src/xla_bridge.py\", line 637, in register_plugin\n"}
+,{"stream_name":"stderr","time":898.902726693,"data":"    c_api = xla_client.load_pjrt_plugin_dynamically(plugin_name, library_path)\n"}
+,{"stream_name":"stderr","time":898.90273523,"data":"  File \"/usr/local/lib/python3.13/dist-packages/jaxlib/xla_client.py\", line 115, in load_pjrt_plugin_dynamically\n"}
+,{"stream_name":"stderr","time":898.902738847,"data":"    return _xla.load_pjrt_plugin(plugin_name, library_path, c_api=None)\n"}
+,{"stream_name":"stderr","time":898.902741843,"data":"           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":898.902744742,"data":"jax.errors.JaxRuntimeError: ALREADY_EXISTS: PJRT_Api already exists for device type cuda\n"}
+,{"stream_name":"stdout","time":2592.061287043,"data":"PROGRESS [  43.2 min] timesfm25 test raw GM-MASE 0.3398 1699s\n"}
+,{"stream_name":"stdout","time":4300.377960752,"data":"PROGRESS [  71.7 min] timesfm25 test randlag GM-MASE 0.3816 1708s\n"}
+,{"stream_name":"stdout","time":6009.086700231,"data":"PROGRESS [ 100.1 min] timesfm25 test ccf GM-MASE 0.3892 1709s\n"}
+,{"stream_name":"stdout","time":7720.363902297,"data":"PROGRESS [ 128.7 min] timesfm25 test ccf_pw GM-MASE 0.3789 1711s\n"}
+,{"stream_name":"stdout","time":9393.233248765,"data":"PROGRESS [ 156.5 min] timesfm25 test gcc_phat GM-MASE 0.385 1673s\n"}
+,{"stream_name":"stdout","time":11058.649668719,"data":"PROGRESS [ 184.3 min] timesfm25 test top3 GM-MASE 0.3951 1665s\n"}
+,{"stream_name":"stdout","time":12705.984691202,"data":"PROGRESS [ 211.8 min] timesfm25 test global GM-MASE 0.3877 1647s\n"}
+,{"stream_name":"stdout","time":14357.42795172,"data":"PROGRESS [ 239.3 min] timesfm25 test binned GM-MASE 0.3868 1651s\n"}
+,{"stream_name":"stdout","time":16029.681693769,"data":"PROGRESS [ 267.1 min] timesfm25 test lta_s0 GM-MASE 0.382 1672s\n"}
+,{"stream_name":"stdout","time":17693.415753023,"data":"PROGRESS [ 294.9 min] timesfm25 test lta_s1 GM-MASE 0.3805 1663s\n"}
+,{"stream_name":"stdout","time":19371.274887774,"data":"PROGRESS [ 322.8 min] timesfm25 test lta_s2 GM-MASE 0.384 1677s\n"}
+,{"stream_name":"stdout","time":19371.733491786,"data":"PROGRESS [ 322.8 min] DONE\n"}
+,{"stream_name":"stderr","time":19378.211498997,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":19378.211527124,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":19378.430273817,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":19378.430300355,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":19379.193013803,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":19380.117760522,"data":"[NbConvertApp] Writing 382719 bytes to __results__.html\n"}
+]

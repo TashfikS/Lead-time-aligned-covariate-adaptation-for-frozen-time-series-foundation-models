@@ -1,0 +1,22 @@
+{
+ "cfg": {
+  "backbone": "timesfm25",
+  "domain": "traffic",
+  "splits": "test",
+  "arms": "uni,raw,randlag,ccf,ccf_pw,gcc_phat,top3,global,binned,lta_s0,lta_s1,lta_s2"
+ },
+ "res": {
+  "test/uni": 0.26477269354736005,
+  "test/raw": 0.33981062625546576,
+  "test/randlag": 0.38161553268677095,
+  "test/ccf": 0.3892363793976091,
+  "test/ccf_pw": 0.37886310625579783,
+  "test/gcc_phat": 0.38498894851161203,
+  "test/top3": 0.3951486400509453,
+  "test/global": 0.38765093745994933,
+  "test/binned": 0.38681279062725155,
+  "test/lta_s0": 0.3819994656950342,
+  "test/lta_s1": 0.3805276384155538,
+  "test/lta_s2": 0.3840225921590477
+ }
+}

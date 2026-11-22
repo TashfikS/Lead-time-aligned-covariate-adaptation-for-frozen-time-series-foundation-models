@@ -1,0 +1,33 @@
+[{"stream_name":"stdout","time":1.53425075,"data":"[  0.0m] STEP env\n"}
+,{"stream_name":"stdout","time":9.311000151,"data":"[  0.1m] STEP chronos2\n"}
+,{"stream_name":"stderr","time":36.099933572,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stderr","time":36.147263238,"data":"[transformers] `torch_dtype` is deprecated! Use `dtype` instead!\n"}
+,{"stream_name":"stderr","time":40.6648607,"data":"\rLoading weights:   0%|          | 0/170 [00:00\u003c?, ?it/s]\rLoading weights:  73%|███████▎  | 124/170 [00:00\u003c00:00, 1232.34it/s]\rLoading weights: 100%|██████████| 170/170 [00:00\u003c00:00, 1230.75it/s]\n"}
+,{"stream_name":"stdout","time":42.934901423,"data":"[  0.7m] STEP timesfm25\n"}
+,{"stream_name":"stderr","time":77.318688874,"data":"ERROR:jax._src.xla_bridge:Jax plugin configuration error: Exception when calling jax_plugins.xla_cuda13.initialize()\n"}
+,{"stream_name":"stderr","time":77.318752515,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":77.318761406,"data":"  File \"/usr/local/lib/python3.13/dist-packages/jax/_src/xla_bridge.py\", line 495, in discover_pjrt_plugins\n"}
+,{"stream_name":"stderr","time":77.31876746,"data":"    plugin_module.initialize()\n"}
+,{"stream_name":"stderr","time":77.318772327,"data":"    ~~~~~~~~~~~~~~~~~~~~~~~~^^\n"}
+,{"stream_name":"stderr","time":77.318777056,"data":"  File \"/usr/local/lib/python3.13/dist-packages/jax_plugins/xla_cuda13/__init__.py\", line 373, in initialize\n"}
+,{"stream_name":"stderr","time":77.318782111,"data":"    c_api = xb.register_plugin(\n"}
+,{"stream_name":"stderr","time":77.318787222,"data":"        'cuda', priority=500, library_path=str(path), options=options\n"}
+,{"stream_name":"stderr","time":77.318792116,"data":"    )\n"}
+,{"stream_name":"stderr","time":77.31879671,"data":"  File \"/usr/local/lib/python3.13/dist-packages/jax/_src/xla_bridge.py\", line 637, in register_plugin\n"}
+,{"stream_name":"stderr","time":77.318801706,"data":"    c_api = xla_client.load_pjrt_plugin_dynamically(plugin_name, library_path)\n"}
+,{"stream_name":"stderr","time":77.318806444,"data":"  File \"/usr/local/lib/python3.13/dist-packages/jaxlib/xla_client.py\", line 115, in load_pjrt_plugin_dynamically\n"}
+,{"stream_name":"stderr","time":77.318811633,"data":"    return _xla.load_pjrt_plugin(plugin_name, library_path, c_api=None)\n"}
+,{"stream_name":"stderr","time":77.318816658,"data":"           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":77.318821582,"data":"jax.errors.JaxRuntimeError: ALREADY_EXISTS: PJRT_Api already exists for device type cuda\n"}
+,{"stream_name":"stdout","time":80.042037752,"data":"[  1.3m] STEP tabpfn_ts\n"}
+,{"stream_name":"stdout","time":97.482044883,"data":"[  1.6m] FAIL tabpfn_ts ValueError('Provide exactly one of future_df or prediction_length')\n"}
+,{"stream_name":"stdout","time":97.482463813,"data":"[  1.6m] STEP moirai11\n"}
+,{"stream_name":"stdout","time":107.490775736,"data":"[  1.8m] FAIL moirai11 AttributeError(\"module 'omegaconf._impl' has no attribute '_eager_resolution'\")\n"}
+,{"stream_name":"stdout","time":107.491622985,"data":"[  1.8m] DONE\n"}
+,{"stream_name":"stderr","time":115.970525745,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":115.970562034,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":116.195210798,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":116.195264429,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":117.028914625,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":117.603942452,"data":"[NbConvertApp] Writing 339532 bytes to __results__.html\n"}
+]

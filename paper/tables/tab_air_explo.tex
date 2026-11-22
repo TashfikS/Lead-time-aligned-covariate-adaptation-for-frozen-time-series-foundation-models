@@ -1,0 +1,16 @@
+\begin{table}[t]\centering\small
+\caption{Post-hoc AirLead check (not pre-registered): Chronos-2, every 12th validation window (\num{305} windows). GM ratio to the raw covariate. All arms keep the raw past covariate and add one horizon-filled channel; ``noise'' is i.i.d.\ standard normal, known over context and horizon.}
+\label{tab:air_explo}
+\begin{tabular}{lrr}
+\toprule
+Added channel & ratio to raw & pairs improved \\
+\midrule
+fixed lag 24 h & 0.991 & 6/10 \\
+fixed lag 48 h & 0.970 & 7/10 \\
+fixed lag 96 h & 0.966 & 6/10 \\
+fixed lag 168 h & 0.961 & 7/10 \\
+CCF lag restricted to $[24,168]$ h & 0.990 & 6/10 \\
+pure noise & 0.988 & 6/10 \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,14 @@
+\begin{table}[t]\centering\small
+\caption{Held-out synthetic test set on three frozen backbones. The aligned covariates come from the same three synthetic-only \lta{} seeds, trained through Chronos-2 only. Columns 3--4: GM-MASE ratios of the plain cross-correlation shift and of the oracle shift relative to the raw covariate (seed-independent). Remaining columns: GM of per-series MASE ratios \lta{}/cross-correlation shift, range over seeds (one seed for TabPFN-TS), overall and by family; $p$: largest Wilcoxon $p$ over seeds. TabPFN-TS uses 50 of the 100 series per cell.}
+\label{tab:synth_transfer}
+\resizebox{\linewidth}{!}{\begin{tabular}{lrrrllllllll}
+\toprule
+ & & \multicolumn{2}{c}{vs raw} & \multicolumn{8}{c}{\lta{} / cross-correlation shift} \\ \cmidrule(lr){3-4}\cmidrule(lr){5-12}
+Backbone & $n$ & CCF & oracle & all & $p$ & fixed, linear & fixed, periodic & fixed, nonlinear & distributed & time-varying & uninformative \\
+\midrule
+Chronos-2 & 1300 & 0.815 & 0.735 & 0.960--0.963 & $<10^{-27}$ & 1.000--1.001 & 0.998 & 0.972--0.977 & 0.903--0.917 & 0.907--0.923 & 0.995--1.000 \\
+TimesFM-2.5 & 1300 & 0.790 & 0.707 & 0.964--0.969 & $<10^{-14}$ & 1.001--1.002 & 0.997 & 0.991--0.992 & 0.981--0.984 & 0.870--0.887 & 0.989--0.997 \\
+TabPFN-TS & 650 & 0.752 & 0.643 & 0.933 & $<10^{-20}$ & 1.001 & 0.989 & 0.891 & 0.870 & 0.882 & 1.002 \\
+\bottomrule
+\end{tabular}}
+\end{table}

@@ -1,0 +1,24 @@
+\begin{table}[t]\centering\small
+\caption{RiverLead test split (Chronos-2 backbone; 9 pairs, \num{9046} windows). GM-MASE pooled over pairs; ratios with 7-day block-bootstrap 95\% intervals and number of pairs improved. The best classical arm on validation was top3. Fine-tuned rows modify the backbone and use the training split.}
+\label{tab:river}
+\resizebox{\linewidth}{!}{\begin{tabular}{lrrlrrlr}
+\toprule
+Arm & GM-MASE & \multicolumn{3}{c}{ratio to raw} & \multicolumn{3}{c}{ratio to best classical} \\
+\midrule
+no covariate & 0.286 & 1.057 & [1.050, 1.063] & 0/9 & 1.151 & [1.136, 1.167] & 0/9 \\
+raw past covariate & 0.271 & -- & -- & -- & 1.090 & [1.077, 1.104] & 1/9 \\
+random lag (control) & 0.272 & 1.005 & [0.995, 1.015] & 3/9 & 1.095 & [1.082, 1.108] & 0/9 \\
+GCC-PHAT & 0.267 & 0.987 & [0.984, 0.991] & 7/9 & 1.076 & [1.063, 1.089] & 1/9 \\
+CCF & 0.253 & 0.933 & [0.924, 0.943] & 8/9 & 1.017 & [1.011, 1.023] & 2/9 \\
+global train lag & 0.252 & 0.932 & [0.924, 0.941] & 8/9 & 1.016 & [1.007, 1.024] & 3/9 \\
+CCF, prewhitened & 0.248 & 0.915 & [0.905, 0.925] & 8/9 & 0.997 & [0.990, 1.003] & 5/9 \\
+top-3 CCF peaks & 0.248 & 0.918 & [0.906, 0.929] & 8/9 & -- & -- & -- \\
+flow-binned train lag & 0.249 & 0.918 & [0.908, 0.928] & 9/9 & 1.001 & [0.993, 1.007] & 5/9 \\
+LTA, seed 0 & 0.245 & 0.903 & [0.893, 0.913] & 8/9 & 0.984 & [0.977, 0.991] & 8/9 \\
+LTA, seed 1 & 0.248 & 0.916 & [0.906, 0.926] & 8/9 & 0.998 & [0.992, 1.005] & 5/9 \\
+LTA, seed 2 & 0.248 & 0.916 & [0.906, 0.926] & 8/9 & 0.998 & [0.990, 1.006] & 4/9 \\
+fine-tuned Chronos-2 (full), raw & 0.219 & 0.808 & [0.796, 0.821] & 9/9 & 0.880 & [0.869, 0.891] & 9/9 \\
+fine-tuned Chronos-2 (LoRA), raw & 0.216 & 0.797 & [0.784, 0.810] & 9/9 & 0.868 & [0.858, 0.879] & 9/9 \\
+\bottomrule
+\end{tabular}}
+\end{table}

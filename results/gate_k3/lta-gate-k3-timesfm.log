@@ -1,0 +1,33 @@
+[{"stream_name":"stdout","time":21.516407553,"data":"PROGRESS [   0.3 min] pip ('timesfm[torch,xreg]',) rc 0 \n"}
+,{"stream_name":"stdout","time":26.722157161,"data":"PROGRESS [   0.4 min] backbone timesfm25 n_series 500\n"}
+,{"stream_name":"stderr","time":39.518669392,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stdout","time":105.747164711,"data":"PROGRESS [   1.7 min] timesfm25 uni GM-MASE 0.8372 55s\n"}
+,{"stream_name":"stderr","time":119.288571578,"data":"ERROR:jax._src.xla_bridge:Jax plugin configuration error: Exception when calling jax_plugins.xla_cuda12.initialize()\n"}
+,{"stream_name":"stderr","time":119.28860619,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":119.288610621,"data":"  File \"/usr/local/lib/python3.13/dist-packages/jax/_src/xla_bridge.py\", line 495, in discover_pjrt_plugins\n"}
+,{"stream_name":"stderr","time":119.288613869,"data":"    plugin_module.initialize()\n"}
+,{"stream_name":"stderr","time":119.288616855,"data":"    ~~~~~~~~~~~~~~~~~~~~~~~~^^\n"}
+,{"stream_name":"stderr","time":119.28862082,"data":"  File \"/usr/local/lib/python3.13/dist-packages/jax_plugins/xla_cuda12/__init__.py\", line 373, in initialize\n"}
+,{"stream_name":"stderr","time":119.28863986,"data":"    c_api = xb.register_plugin(\n"}
+,{"stream_name":"stderr","time":119.28864544,"data":"        'cuda', priority=500, library_path=str(path), options=options\n"}
+,{"stream_name":"stderr","time":119.288650641,"data":"    )\n"}
+,{"stream_name":"stderr","time":119.288672249,"data":"  File \"/usr/local/lib/python3.13/dist-packages/jax/_src/xla_bridge.py\", line 637, in register_plugin\n"}
+,{"stream_name":"stderr","time":119.288677463,"data":"    c_api = xla_client.load_pjrt_plugin_dynamically(plugin_name, library_path)\n"}
+,{"stream_name":"stderr","time":119.288682083,"data":"  File \"/usr/local/lib/python3.13/dist-packages/jaxlib/xla_client.py\", line 115, in load_pjrt_plugin_dynamically\n"}
+,{"stream_name":"stderr","time":119.288686763,"data":"    return _xla.load_pjrt_plugin(plugin_name, library_path, c_api=None)\n"}
+,{"stream_name":"stderr","time":119.288691296,"data":"           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":119.288695839,"data":"jax.errors.JaxRuntimeError: ALREADY_EXISTS: PJRT_Api already exists for device type cuda\n"}
+,{"stream_name":"stdout","time":232.022476248,"data":"PROGRESS [   3.8 min] timesfm25 raw GM-MASE 0.6626 126s\n"}
+,{"stream_name":"stdout","time":341.793384027,"data":"PROGRESS [   5.7 min] timesfm25 oracle GM-MASE 0.4474 110s\n"}
+,{"stream_name":"stdout","time":452.048134891,"data":"PROGRESS [   7.5 min] timesfm25 oracle_pastonly GM-MASE 0.7569 110s\n"}
+,{"stream_name":"stdout","time":562.668557088,"data":"PROGRESS [   9.4 min] timesfm25 ccf GM-MASE 0.4963 111s\n"}
+,{"stream_name":"stdout","time":673.372745057,"data":"PROGRESS [  11.2 min] timesfm25 ccf_pw GM-MASE 0.5044 111s\n"}
+,{"stream_name":"stdout","time":783.576370229,"data":"PROGRESS [  13.0 min] timesfm25 randlag GM-MASE 0.6591 110s\n"}
+,{"stream_name":"stdout","time":783.598095598,"data":"PROGRESS [  13.0 min] DONE\n"}
+,{"stream_name":"stderr","time":795.075697324,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":795.075735826,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":795.491395392,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":795.49142108,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":796.474827577,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":797.922089763,"data":"[NbConvertApp] Writing 349676 bytes to __results__.html\n"}
+]

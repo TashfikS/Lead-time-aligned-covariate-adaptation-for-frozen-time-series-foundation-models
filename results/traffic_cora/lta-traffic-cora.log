@@ -1,0 +1,37 @@
+[{"stream_name":"stdout","time":8.95330164,"data":"PROGRESS [   0.1 min] pip 0\n"}
+,{"stream_name":"stderr","time":58.02634709,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stderr","time":58.061198709,"data":"[transformers] `torch_dtype` is deprecated! Use `dtype` instead!\n"}
+,{"stream_name":"stderr","time":63.101708693,"data":"\rLoading weights:   0%|          | 0/170 [00:00\u003c?, ?it/s]\rLoading weights:  69%|██████▉   | 117/170 [00:00\u003c00:00, 1148.49it/s]\rLoading weights: 100%|██████████| 170/170 [00:00\u003c00:00, 1173.76it/s]\n"}
+,{"stream_name":"stdout","time":66.249694087,"data":"PROGRESS [   1.1 min] traffic {'train': 10360, 'val': 3600, 'test': 7320}\n"}
+,{"stream_name":"stdout","time":199.053506902,"data":"PROGRESS [   3.3 min] traffic embedded\n"}
+,{"stream_name":"stdout","time":199.268176063,"data":"PROGRESS [   3.3 min] traffic cora_raw step 0 val 0.3141\n"}
+,{"stream_name":"stdout","time":200.541761976,"data":"PROGRESS [   3.3 min] traffic cora_raw step 250 loss 0.2068 val 0.3489 best 0.3141 @ 0\n"}
+,{"stream_name":"stderr","time":200.541762287,"data":"/kaggle/src/script.py:68: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.\n"}
+,{"stream_name":"stderr","time":200.541806382,"data":"Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:836.)\n"}
+,{"stream_name":"stderr","time":200.541813389,"data":"  P(dom, arm, \"step\", step, \"loss\", round(float(loss), 4), \"val\", round(v, 4), \"best\", round(best[0], 4), \"@\", best[1])\n"}
+,{"stream_name":"stdout","time":201.514252976,"data":"PROGRESS [   3.3 min] traffic cora_raw step 500 loss 0.1826 val 0.3373 best 0.3141 @ 0\n"}
+,{"stream_name":"stdout","time":202.543276707,"data":"PROGRESS [   3.3 min] traffic cora_raw step 750 loss 0.1522 val 0.3342 best 0.3141 @ 0\n"}
+,{"stream_name":"stdout","time":203.537016339,"data":"PROGRESS [   3.4 min] traffic cora_raw step 1000 loss 0.1343 val 0.3283 best 0.3141 @ 0\n"}
+,{"stream_name":"stdout","time":204.528098215,"data":"PROGRESS [   3.4 min] traffic cora_raw step 1250 loss 0.1728 val 0.3213 best 0.3141 @ 0\n"}
+,{"stream_name":"stdout","time":205.511819259,"data":"PROGRESS [   3.4 min] traffic cora_raw step 1500 loss 0.1416 val 0.311 best 0.311 @ 1500\n"}
+,{"stream_name":"stdout","time":206.49104345,"data":"PROGRESS [   3.4 min] traffic cora_raw step 1750 loss 0.13 val 0.312 best 0.311 @ 1500\n"}
+,{"stream_name":"stdout","time":207.46582758,"data":"PROGRESS [   3.4 min] traffic cora_raw step 2000 loss 0.1348 val 0.3096 best 0.3096 @ 2000\n"}
+,{"stream_name":"stdout","time":207.671984798,"data":"PROGRESS [   3.4 min] traffic cora_raw TEST GM-MASE 0.3045 best step 2000\n"}
+,{"stream_name":"stdout","time":207.800161891,"data":"PROGRESS [   3.4 min] traffic cora_nocov step 0 val 0.3141\n"}
+,{"stream_name":"stdout","time":208.758345987,"data":"PROGRESS [   3.4 min] traffic cora_nocov step 250 loss 0.2161 val 0.314 best 0.314 @ 250\n"}
+,{"stream_name":"stdout","time":209.739384747,"data":"PROGRESS [   3.5 min] traffic cora_nocov step 500 loss 0.1847 val 0.3101 best 0.3101 @ 500\n"}
+,{"stream_name":"stdout","time":210.701324845,"data":"PROGRESS [   3.5 min] traffic cora_nocov step 750 loss 0.162 val 0.3085 best 0.3085 @ 750\n"}
+,{"stream_name":"stdout","time":211.673411979,"data":"PROGRESS [   3.5 min] traffic cora_nocov step 1000 loss 0.1813 val 0.307 best 0.307 @ 1000\n"}
+,{"stream_name":"stdout","time":212.658915956,"data":"PROGRESS [   3.5 min] traffic cora_nocov step 1250 loss 0.2197 val 0.3116 best 0.307 @ 1000\n"}
+,{"stream_name":"stdout","time":213.670878608,"data":"PROGRESS [   3.5 min] traffic cora_nocov step 1500 loss 0.1694 val 0.3102 best 0.307 @ 1000\n"}
+,{"stream_name":"stdout","time":214.633022671,"data":"PROGRESS [   3.5 min] traffic cora_nocov step 1750 loss 0.1861 val 0.3113 best 0.307 @ 1000\n"}
+,{"stream_name":"stdout","time":215.594529736,"data":"PROGRESS [   3.6 min] traffic cora_nocov step 2000 loss 0.1811 val 0.3072 best 0.307 @ 1000\n"}
+,{"stream_name":"stdout","time":215.786900068,"data":"PROGRESS [   3.6 min] traffic cora_nocov TEST GM-MASE 0.2961 best step 1000\n"}
+,{"stream_name":"stdout","time":215.934182693,"data":"PROGRESS [   3.6 min] DONE\n"}
+,{"stream_name":"stderr","time":225.837848947,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":225.83788147,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":226.176813137,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":226.176838323,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":227.03169433,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":228.416821282,"data":"[NbConvertApp] Writing 390706 bytes to __results__.html\n"}
+]

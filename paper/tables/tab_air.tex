@@ -1,0 +1,23 @@
+\begin{table}[t]\centering\small
+\caption{AirLead test split (10 pairs, \num{10960} windows). Pooled GM-MASE ratios with 7-day block-bootstrap 95\% intervals and pairs improved (of 10). Best classical arm on validation (Chronos-2): ccf\_pw. The random-lag row is the pre-registered specificity control.}
+\label{tab:air}
+\resizebox{\linewidth}{!}{\begin{tabular}{lrrlrrlr}
+\toprule
+ & \multicolumn{4}{c}{Chronos-2} & \multicolumn{3}{c}{TimesFM-2.5 (XReg)} \\
+Arm & GM-MASE & ratio to raw & 95\% CI & pairs & GM-MASE & ratio to raw & pairs \\
+\midrule
+no covariate & 0.365 & 1.046 & [1.041, 1.050] & 0/10 & 0.367 & 0.777 & 10/10 \\
+raw past covariate & 0.349 & -- & -- & -- & 0.473 & -- & -- \\
+random lag (control) & 0.334 & 0.958 & [0.952, 0.965] & 10/10 & 0.478 & 1.011 & 2/10 \\
+GCC-PHAT & 0.346 & 0.993 & [0.991, 0.995] & 9/10 & -- & -- & -- \\
+CCF & 0.345 & 0.990 & [0.985, 0.995] & 10/10 & -- & -- & -- \\
+global train lag & 0.346 & 0.991 & [0.989, 0.994] & 10/10 & -- & -- & -- \\
+CCF, prewhitened & 0.345 & 0.990 & [0.987, 0.993] & 10/10 & 0.439 & 0.930 & 10/10 \\
+top-3 CCF peaks & 0.348 & 0.999 & [0.992, 1.005] & 6/10 & 0.398 & 0.842 & 10/10 \\
+level-binned train lag & 0.346 & 0.992 & [0.989, 0.995] & 9/10 & 0.443 & 0.938 & 8/10 \\
+LTA, seed 0 & 0.344 & 0.986 & [0.981, 0.991] & 10/10 & 0.407 & 0.861 & 10/10 \\
+LTA, seed 1 & 0.345 & 0.989 & [0.984, 0.994] & 9/10 & 0.405 & 0.857 & 10/10 \\
+LTA, seed 2 & 0.344 & 0.987 & [0.982, 0.992] & 10/10 & 0.410 & 0.868 & 10/10 \\
+\bottomrule
+\end{tabular}}
+\end{table}

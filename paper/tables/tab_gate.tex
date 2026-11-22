@@ -1,0 +1,14 @@
+\begin{table}[t]\centering\small
+\caption{Pre-registered headroom gate (dev split; GM-MASE). G1: GM[oracle/ref] $\le 0.95$ with Wilcoxon $p<0.01$, ref = better of no covariate and raw covariate. G2: GM[random lag/oracle] $\ge 1.05$. ``Context only'': true-lag shift in the context, horizon left missing.}
+\label{tab:gate}
+\resizebox{\linewidth}{!}{\begin{tabular}{lrrrrrrrrrrc}
+\toprule
+Backbone & $n$ & no cov. & raw & context only & random lag & CCF & oracle & G1 ratio & $p$ & G2 ratio & pass \\
+\midrule
+Chronos-2 & 500 & 0.663 & 0.617 & 0.656 & 0.636 & 0.473 & 0.428 & 0.694 & $<10^{-10}$ & 1.485 & yes \\
+TimesFM-2.5 & 500 & 0.659 & 0.663 & 0.757 & 0.659 & 0.496 & 0.447 & 0.679 & $<10^{-10}$ & 1.473 & yes \\
+TabPFN-TS & 200 & 0.697 & 0.694 & 0.746 & 0.687 & 0.492 & 0.425 & 0.613 & $<10^{-10}$ & 1.615 & yes \\
+Moirai-1.1 & 500 & 0.679 & 0.690 & 0.685 & 0.688 & 0.686 & 0.687 & 1.012 & 0.069 & 1.001 & no \\
+\bottomrule
+\end{tabular}}
+\end{table}

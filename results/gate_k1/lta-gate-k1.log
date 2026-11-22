@@ -1,0 +1,44 @@
+[{"stream_name":"stdout","time":7.906542144,"data":"PROGRESS [   0.1 min] pip ('chronos-forecasting==2.3.2',) rc 0 \n"}
+,{"stream_name":"stdout","time":22.247390181,"data":"PROGRESS [   0.3 min] pip ('timesfm[torch,xreg]',) rc 0 \n"}
+,{"stream_name":"stdout","time":27.464605406,"data":"PROGRESS [   0.4 min] backbone chronos2 n_series 500\n"}
+,{"stream_name":"stderr","time":75.041621747,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stderr","time":75.166328876,"data":"[transformers] `torch_dtype` is deprecated! Use `dtype` instead!\n"}
+,{"stream_name":"stderr","time":78.916634225,"data":"\rLoading weights:   0%|          | 0/170 [00:00\u003c?, ?it/s]\rLoading weights:  68%|██████▊   | 116/170 [00:00\u003c00:00, 1148.88it/s]\rLoading weights: 100%|██████████| 170/170 [00:00\u003c00:00, 1171.62it/s]\n"}
+,{"stream_name":"stdout","time":83.740394071,"data":"PROGRESS [   1.4 min] chronos2 uni GM-MASE 0.6628 5s\n"}
+,{"stream_name":"stdout","time":86.533866584,"data":"PROGRESS [   1.4 min] chronos2 raw GM-MASE 0.6169 3s\n"}
+,{"stream_name":"stdout","time":89.316347901,"data":"PROGRESS [   1.5 min] chronos2 oracle GM-MASE 0.428 3s\n"}
+,{"stream_name":"stdout","time":92.121025279,"data":"PROGRESS [   1.5 min] chronos2 oracle_pastonly GM-MASE 0.6564 3s\n"}
+,{"stream_name":"stdout","time":95.573980731,"data":"PROGRESS [   1.6 min] chronos2 ccf GM-MASE 0.4731 3s\n"}
+,{"stream_name":"stdout","time":99.105116382,"data":"PROGRESS [   1.6 min] chronos2 ccf_pw GM-MASE 0.4777 4s\n"}
+,{"stream_name":"stdout","time":101.97133515,"data":"PROGRESS [   1.7 min] chronos2 randlag GM-MASE 0.6356 3s\n"}
+,{"stream_name":"stdout","time":102.857746554,"data":"PROGRESS [   1.7 min] backbone timesfm25 n_series 500\n"}
+,{"stream_name":"stdout","time":168.647688057,"data":"PROGRESS [   2.8 min] timesfm25 uni GM-MASE 0.8372 56s\n"}
+,{"stream_name":"stderr","time":183.676445048,"data":"ERROR:jax._src.xla_bridge:Jax plugin configuration error: Exception when calling jax_plugins.xla_cuda12.initialize()\n"}
+,{"stream_name":"stderr","time":183.676476598,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":183.676482331,"data":"  File \"/usr/local/lib/python3.13/dist-packages/jax/_src/xla_bridge.py\", line 495, in discover_pjrt_plugins\n"}
+,{"stream_name":"stderr","time":183.676488028,"data":"    plugin_module.initialize()\n"}
+,{"stream_name":"stderr","time":183.676492843,"data":"    ~~~~~~~~~~~~~~~~~~~~~~~~^^\n"}
+,{"stream_name":"stderr","time":183.676497993,"data":"  File \"/usr/local/lib/python3.13/dist-packages/jax_plugins/xla_cuda12/__init__.py\", line 373, in initialize\n"}
+,{"stream_name":"stderr","time":183.676503473,"data":"    c_api = xb.register_plugin(\n"}
+,{"stream_name":"stderr","time":183.676508494,"data":"        'cuda', priority=500, library_path=str(path), options=options\n"}
+,{"stream_name":"stderr","time":183.676513877,"data":"    )\n"}
+,{"stream_name":"stderr","time":183.676518555,"data":"  File \"/usr/local/lib/python3.13/dist-packages/jax/_src/xla_bridge.py\", line 637, in register_plugin\n"}
+,{"stream_name":"stderr","time":183.676525255,"data":"    c_api = xla_client.load_pjrt_plugin_dynamically(plugin_name, library_path)\n"}
+,{"stream_name":"stderr","time":183.676533848,"data":"  File \"/usr/local/lib/python3.13/dist-packages/jaxlib/xla_client.py\", line 115, in load_pjrt_plugin_dynamically\n"}
+,{"stream_name":"stderr","time":183.676537355,"data":"    return _xla.load_pjrt_plugin(plugin_name, library_path, c_api=None)\n"}
+,{"stream_name":"stderr","time":183.67654042,"data":"           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":183.676591365,"data":"jax.errors.JaxRuntimeError: ALREADY_EXISTS: PJRT_Api already exists for device type cuda\n"}
+,{"stream_name":"stdout","time":243.383450537,"data":"PROGRESS [   4.0 min] timesfm25 raw GM-MASE 0.6588 75s\n"}
+,{"stream_name":"stdout","time":299.873417951,"data":"PROGRESS [   5.0 min] timesfm25 oracle GM-MASE 0.6585 56s\n"}
+,{"stream_name":"stdout","time":356.254837907,"data":"PROGRESS [   5.9 min] timesfm25 oracle_pastonly GM-MASE 0.6589 56s\n"}
+,{"stream_name":"stdout","time":413.521303737,"data":"PROGRESS [   6.9 min] timesfm25 ccf GM-MASE 0.6583 57s\n"}
+,{"stream_name":"stdout","time":470.655590373,"data":"PROGRESS [   7.8 min] timesfm25 ccf_pw GM-MASE 0.6585 57s\n"}
+,{"stream_name":"stdout","time":527.365299898,"data":"PROGRESS [   8.8 min] timesfm25 randlag GM-MASE 0.659 57s\n"}
+,{"stream_name":"stdout","time":527.408415814,"data":"PROGRESS [   8.8 min] DONE\n"}
+,{"stream_name":"stderr","time":540.455215587,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":540.455264519,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":540.794844263,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":540.794864195,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":541.717910797,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":543.091048295,"data":"[NbConvertApp] Writing 326371 bytes to __results__.html\n"}
+]

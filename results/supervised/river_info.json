@@ -1,0 +1,290 @@
+{
+ "delaware/arx_full": {
+  "n_train": 48683,
+  "alpha": 100
+ },
+ "delaware/lgbm_full": {
+  "n_train": 48683,
+  "iters": 52
+ },
+ "delaware/arx_full_nocov": {
+  "n_train": 48683,
+  "alpha": 10
+ },
+ "delaware/lgbm_full_nocov": {
+  "n_train": 48683,
+  "iters": 52
+ },
+ "delaware/arx_short": {
+  "n_train": 2160,
+  "alpha": 1000
+ },
+ "delaware/lgbm_short": {
+  "n_train": 2160,
+  "iters": 16
+ },
+ "delaware/arx_short_nocov": {
+  "n_train": 2160,
+  "alpha": 1000
+ },
+ "delaware/lgbm_short_nocov": {
+  "n_train": 2160,
+  "iters": 26
+ },
+ "susquehanna/arx_full": {
+  "n_train": 49001,
+  "alpha": 100
+ },
+ "susquehanna/lgbm_full": {
+  "n_train": 49001,
+  "iters": 98
+ },
+ "susquehanna/arx_full_nocov": {
+  "n_train": 49001,
+  "alpha": 10
+ },
+ "susquehanna/lgbm_full_nocov": {
+  "n_train": 49001,
+  "iters": 77
+ },
+ "susquehanna/arx_short": {
+  "n_train": 2160,
+  "alpha": 1000
+ },
+ "susquehanna/lgbm_short": {
+  "n_train": 2160,
+  "iters": 27
+ },
+ "susquehanna/arx_short_nocov": {
+  "n_train": 2160,
+  "alpha": 1000
+ },
+ "susquehanna/lgbm_short_nocov": {
+  "n_train": 2160,
+  "iters": 25
+ },
+ "potomac/arx_full": {
+  "n_train": 50002,
+  "alpha": 0.1
+ },
+ "potomac/lgbm_full": {
+  "n_train": 50002,
+  "iters": 106
+ },
+ "potomac/arx_full_nocov": {
+  "n_train": 50002,
+  "alpha": 1000
+ },
+ "potomac/lgbm_full_nocov": {
+  "n_train": 50002,
+  "iters": 61
+ },
+ "potomac/arx_short": {
+  "n_train": 2160,
+  "alpha": 0.1
+ },
+ "potomac/lgbm_short": {
+  "n_train": 2160,
+  "iters": 13
+ },
+ "potomac/arx_short_nocov": {
+  "n_train": 2160,
+  "alpha": 1000
+ },
+ "potomac/lgbm_short_nocov": {
+  "n_train": 2160,
+  "iters": 20
+ },
+ "connecticut/arx_full": {
+  "n_train": 51850,
+  "alpha": 1
+ },
+ "connecticut/lgbm_full": {
+  "n_train": 51850,
+  "iters": 388
+ },
+ "connecticut/arx_full_nocov": {
+  "n_train": 51850,
+  "alpha": 10
+ },
+ "connecticut/lgbm_full_nocov": {
+  "n_train": 51850,
+  "iters": 66
+ },
+ "connecticut/arx_short": {
+  "n_train": 2160,
+  "alpha": 100
+ },
+ "connecticut/lgbm_short": {
+  "n_train": 2160,
+  "iters": 22
+ },
+ "connecticut/arx_short_nocov": {
+  "n_train": 2160,
+  "alpha": 1000
+ },
+ "connecticut/lgbm_short_nocov": {
+  "n_train": 2160,
+  "iters": 22
+ },
+ "james/arx_full": {
+  "n_train": 51209,
+  "alpha": 0.1
+ },
+ "james/lgbm_full": {
+  "n_train": 51209,
+  "iters": 458
+ },
+ "james/arx_full_nocov": {
+  "n_train": 51209,
+  "alpha": 100
+ },
+ "james/lgbm_full_nocov": {
+  "n_train": 51209,
+  "iters": 26
+ },
+ "james/arx_short": {
+  "n_train": 2160,
+  "alpha": 0.1
+ },
+ "james/lgbm_short": {
+  "n_train": 2160,
+  "iters": 29
+ },
+ "james/arx_short_nocov": {
+  "n_train": 2160,
+  "alpha": 1000
+ },
+ "james/lgbm_short_nocov": {
+  "n_train": 2160,
+  "iters": 19
+ },
+ "missouri/arx_full": {
+  "n_train": 49280,
+  "alpha": 100
+ },
+ "missouri/lgbm_full": {
+  "n_train": 49280,
+  "iters": 116
+ },
+ "missouri/arx_full_nocov": {
+  "n_train": 49280,
+  "alpha": 10
+ },
+ "missouri/lgbm_full_nocov": {
+  "n_train": 49280,
+  "iters": 69
+ },
+ "missouri/arx_short": {
+  "n_train": 2160,
+  "alpha": 100
+ },
+ "missouri/lgbm_short": {
+  "n_train": 2160,
+  "iters": 64
+ },
+ "missouri/arx_short_nocov": {
+  "n_train": 2160,
+  "alpha": 10
+ },
+ "missouri/lgbm_short_nocov": {
+  "n_train": 2160,
+  "iters": 43
+ },
+ "mississippi/arx_full": {
+  "n_train": 51726,
+  "alpha": 10
+ },
+ "mississippi/lgbm_full": {
+  "n_train": 51726,
+  "iters": 995
+ },
+ "mississippi/arx_full_nocov": {
+  "n_train": 51726,
+  "alpha": 0.1
+ },
+ "mississippi/lgbm_full_nocov": {
+  "n_train": 51726,
+  "iters": 123
+ },
+ "mississippi/arx_short": {
+  "n_train": 2160,
+  "alpha": 10
+ },
+ "mississippi/lgbm_short": {
+  "n_train": 2160,
+  "iters": 41
+ },
+ "mississippi/arx_short_nocov": {
+  "n_train": 2160,
+  "alpha": 1000
+ },
+ "mississippi/lgbm_short_nocov": {
+  "n_train": 2160,
+  "iters": 39
+ },
+ "ohio/arx_full": {
+  "n_train": 43407,
+  "alpha": 1
+ },
+ "ohio/lgbm_full": {
+  "n_train": 43407,
+  "iters": 260
+ },
+ "ohio/arx_full_nocov": {
+  "n_train": 43407,
+  "alpha": 1000
+ },
+ "ohio/lgbm_full_nocov": {
+  "n_train": 43407,
+  "iters": 83
+ },
+ "ohio/arx_short": {
+  "n_train": 1916,
+  "alpha": 0.1
+ },
+ "ohio/lgbm_short": {
+  "n_train": 1916,
+  "iters": 25
+ },
+ "ohio/arx_short_nocov": {
+  "n_train": 1916,
+  "alpha": 1000
+ },
+ "ohio/lgbm_short_nocov": {
+  "n_train": 1916,
+  "iters": 29
+ },
+ "allegheny_ohio/arx_full": {
+  "n_train": 51096,
+  "alpha": 1
+ },
+ "allegheny_ohio/lgbm_full": {
+  "n_train": 51096,
+  "iters": 144
+ },
+ "allegheny_ohio/arx_full_nocov": {
+  "n_train": 51096,
+  "alpha": 1000
+ },
+ "allegheny_ohio/lgbm_full_nocov": {
+  "n_train": 51096,
+  "iters": 87
+ },
+ "allegheny_ohio/arx_short": {
+  "n_train": 2160,
+  "alpha": 1000
+ },
+ "allegheny_ohio/lgbm_short": {
+  "n_train": 2160,
+  "iters": 7
+ },
+ "allegheny_ohio/arx_short_nocov": {
+  "n_train": 2160,
+  "alpha": 1000
+ },
+ "allegheny_ohio/lgbm_short_nocov": {
+  "n_train": 2160,
+  "iters": 10
+ }
+}

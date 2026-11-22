@@ -1,0 +1,17 @@
+{
+ "cfg": {
+  "backbone": "timesfm25",
+  "splits": "test",
+  "arms": "uni,raw,ccf_pw,top3,binned,lta_s0,lta_s1,lta_s2"
+ },
+ "res": {
+  "test/uni": 115.8795882728634,
+  "test/raw": 0.472542914181447,
+  "test/ccf_pw": 0.4394088143280169,
+  "test/top3": 0.397661759156567,
+  "test/binned": 0.44302141852137056,
+  "test/lta_s0": 0.4068681238246112,
+  "test/lta_s1": 0.40500661119460124,
+  "test/lta_s2": 0.4100408217164532
+ }
+}

@@ -1,0 +1,14 @@
+\begin{table}[t]\centering\small
+\caption{Training-split lead diagnostic (post hoc, D24). Global lag and mean cross-correlation (CCF) peak at that lag on log-differences, per pair, from training windows only; and the per-pair test ratio of the validation-selected classical arm to the raw covariate with Chronos-2 (TrafficLead: filtered pairs). Only RiverLead combines a multi-step lead with a non-trivial correlation at that lag, and only there did alignment give a lead-specific gain.}
+\label{tab:leaddiag}
+\resizebox{\linewidth}{!}{\begin{tabular}{lllll}
+\toprule
+Benchmark & step & train lag, median [range] & train CCF peak, median [range] & classical / raw, range over pairs \\
+\midrule
+RiverLead & 1 h & 12 [0, 27] & 0.34 [0.15, 0.61] & 0.816--1.014 \\
+AirLead & 1 h & 0 [0, 24] & 0.51 [0.36, 0.59] & 0.983--0.997 \\
+EnergyLead & 1 h & 0 [0, 8] & 0.21 [0.06, 0.38] & 0.980--1.001 \\
+TrafficLead & 5 min & 8 [3, 111] & 0.10 [0.08, 0.11] & 0.992--1.044 \\
+\bottomrule
+\end{tabular}}
+\end{table}

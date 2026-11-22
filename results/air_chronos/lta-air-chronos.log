@@ -1,0 +1,41 @@
+[{"stream_name":"stdout","time":9.16367748,"data":"PROGRESS [   0.1 min] pip ('chronos-forecasting==2.3.2',) rc 0\n"}
+,{"stream_name":"stdout","time":29.412751883,"data":"PROGRESS [   0.5 min] windows {'train': 21700, 'val': 3650, 'test': 10960} event frac test 0.267\n"}
+,{"stream_name":"stdout","time":41.730395213,"data":"PROGRESS [   0.7 min] global lags {'adelaide_melbourne': 0, 'amsterdam_berlin': 9, 'beijing_seoul': 23, 'brest_paris': 0, 'dallas_memphis': 0, 'dublin_london': 0, 'kansascity_stlouis': 0, 'minneapolis_milwaukee': 0, 'omaha_chicago': 24, 'paris_frankfurt': 0}\n"}
+,{"stream_name":"stdout","time":70.948081741,"data":"PROGRESS [   1.2 min] aligned s0\n"}
+,{"stream_name":"stdout","time":89.029003572,"data":"PROGRESS [   1.5 min] aligned s1\n"}
+,{"stream_name":"stdout","time":107.035260577,"data":"PROGRESS [   1.8 min] aligned s2\n"}
+,{"stream_name":"stderr","time":144.237311249,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stderr","time":144.365388659,"data":"[transformers] `torch_dtype` is deprecated! Use `dtype` instead!\n"}
+,{"stream_name":"stderr","time":148.605006205,"data":"\rLoading weights:   0%|          | 0/170 [00:00\u003c?, ?it/s]\rLoading weights:  74%|███████▎  | 125/170 [00:00\u003c00:00, 1243.15it/s]\rLoading weights: 100%|██████████| 170/170 [00:00\u003c00:00, 1236.13it/s]\n"}
+,{"stream_name":"stdout","time":160.622701084,"data":"PROGRESS [   2.6 min] chronos2 val uni GM-MASE 0.3682 12s\n"}
+,{"stream_name":"stdout","time":185.314935193,"data":"PROGRESS [   3.1 min] chronos2 val raw GM-MASE 0.3517 25s\n"}
+,{"stream_name":"stdout","time":232.493382914,"data":"PROGRESS [   3.8 min] chronos2 val ccf GM-MASE 0.3481 47s\n"}
+,{"stream_name":"stdout","time":276.805057063,"data":"PROGRESS [   4.6 min] chronos2 val ccf_pw GM-MASE 0.3474 44s\n"}
+,{"stream_name":"stdout","time":317.947357697,"data":"PROGRESS [   5.3 min] chronos2 val gcc_phat GM-MASE 0.348 41s\n"}
+,{"stream_name":"stdout","time":390.192529321,"data":"PROGRESS [   6.5 min] chronos2 val top3 GM-MASE 0.3515 72s\n"}
+,{"stream_name":"stdout","time":429.897356818,"data":"PROGRESS [   7.1 min] chronos2 val global GM-MASE 0.3477 40s\n"}
+,{"stream_name":"stdout","time":470.378098483,"data":"PROGRESS [   7.8 min] chronos2 val binned GM-MASE 0.3484 40s\n"}
+,{"stream_name":"stdout","time":510.462588948,"data":"PROGRESS [   8.5 min] chronos2 val randlag GM-MASE 0.3348 40s\n"}
+,{"stream_name":"stdout","time":550.736070417,"data":"PROGRESS [   9.1 min] chronos2 val lta_s0 GM-MASE 0.3451 40s\n"}
+,{"stream_name":"stdout","time":590.758860462,"data":"PROGRESS [   9.8 min] chronos2 val lta_s1 GM-MASE 0.3467 40s\n"}
+,{"stream_name":"stdout","time":630.874011054,"data":"PROGRESS [  10.5 min] chronos2 val lta_s2 GM-MASE 0.3461 40s\n"}
+,{"stream_name":"stdout","time":671.342432685,"data":"PROGRESS [  11.2 min] chronos2 test uni GM-MASE 0.3648 40s\n"}
+,{"stream_name":"stdout","time":750.931789212,"data":"PROGRESS [  12.5 min] chronos2 test raw GM-MASE 0.3488 79s\n"}
+,{"stream_name":"stdout","time":886.974559994,"data":"PROGRESS [  14.8 min] chronos2 test ccf GM-MASE 0.3452 136s\n"}
+,{"stream_name":"stdout","time":1024.968131792,"data":"PROGRESS [  17.1 min] chronos2 test ccf_pw GM-MASE 0.3453 138s\n"}
+,{"stream_name":"stdout","time":1146.985733658,"data":"PROGRESS [  19.1 min] chronos2 test gcc_phat GM-MASE 0.3463 122s\n"}
+,{"stream_name":"stdout","time":1362.639304663,"data":"PROGRESS [  22.7 min] chronos2 test top3 GM-MASE 0.3483 215s\n"}
+,{"stream_name":"stdout","time":1483.925594245,"data":"PROGRESS [  24.7 min] chronos2 test global GM-MASE 0.3458 121s\n"}
+,{"stream_name":"stdout","time":1604.877252235,"data":"PROGRESS [  26.7 min] chronos2 test binned GM-MASE 0.3459 120s\n"}
+,{"stream_name":"stdout","time":1726.803667451,"data":"PROGRESS [  28.7 min] chronos2 test randlag GM-MASE 0.3343 121s\n"}
+,{"stream_name":"stdout","time":1847.866285994,"data":"PROGRESS [  30.8 min] chronos2 test lta_s0 GM-MASE 0.344 120s\n"}
+,{"stream_name":"stdout","time":1968.940793357,"data":"PROGRESS [  32.8 min] chronos2 test lta_s1 GM-MASE 0.3451 120s\n"}
+,{"stream_name":"stdout","time":2090.048406778,"data":"PROGRESS [  34.8 min] chronos2 test lta_s2 GM-MASE 0.3441 120s\n"}
+,{"stream_name":"stdout","time":2091.052052487,"data":"PROGRESS [  34.8 min] DONE\n"}
+,{"stream_name":"stderr","time":2104.353063237,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":2104.353118794,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":2104.789278505,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":2104.789307901,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":2105.741113744,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":2107.290027065,"data":"[NbConvertApp] Writing 369159 bytes to __results__.html\n"}
+]

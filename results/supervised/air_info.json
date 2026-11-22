@@ -1,0 +1,322 @@
+{
+ "omaha_chicago/arx_full": {
+  "n_train": 52440,
+  "alpha": 0.1
+ },
+ "omaha_chicago/lgbm_full": {
+  "n_train": 52440,
+  "iters": 328
+ },
+ "omaha_chicago/arx_full_nocov": {
+  "n_train": 52440,
+  "alpha": 1
+ },
+ "omaha_chicago/lgbm_full_nocov": {
+  "n_train": 52440,
+  "iters": 156
+ },
+ "omaha_chicago/arx_short": {
+  "n_train": 2160,
+  "alpha": 0.1
+ },
+ "omaha_chicago/lgbm_short": {
+  "n_train": 2160,
+  "iters": 116
+ },
+ "omaha_chicago/arx_short_nocov": {
+  "n_train": 2160,
+  "alpha": 100
+ },
+ "omaha_chicago/lgbm_short_nocov": {
+  "n_train": 2160,
+  "iters": 65
+ },
+ "minneapolis_milwaukee/arx_full": {
+  "n_train": 52440,
+  "alpha": 1
+ },
+ "minneapolis_milwaukee/lgbm_full": {
+  "n_train": 52440,
+  "iters": 482
+ },
+ "minneapolis_milwaukee/arx_full_nocov": {
+  "n_train": 52440,
+  "alpha": 0.1
+ },
+ "minneapolis_milwaukee/lgbm_full_nocov": {
+  "n_train": 52440,
+  "iters": 192
+ },
+ "minneapolis_milwaukee/arx_short": {
+  "n_train": 2160,
+  "alpha": 0.1
+ },
+ "minneapolis_milwaukee/lgbm_short": {
+  "n_train": 2160,
+  "iters": 93
+ },
+ "minneapolis_milwaukee/arx_short_nocov": {
+  "n_train": 2160,
+  "alpha": 0.1
+ },
+ "minneapolis_milwaukee/lgbm_short_nocov": {
+  "n_train": 2160,
+  "iters": 61
+ },
+ "kansascity_stlouis/arx_full": {
+  "n_train": 52440,
+  "alpha": 1
+ },
+ "kansascity_stlouis/lgbm_full": {
+  "n_train": 52440,
+  "iters": 399
+ },
+ "kansascity_stlouis/arx_full_nocov": {
+  "n_train": 52440,
+  "alpha": 1
+ },
+ "kansascity_stlouis/lgbm_full_nocov": {
+  "n_train": 52440,
+  "iters": 109
+ },
+ "kansascity_stlouis/arx_short": {
+  "n_train": 2160,
+  "alpha": 0.1
+ },
+ "kansascity_stlouis/lgbm_short": {
+  "n_train": 2160,
+  "iters": 91
+ },
+ "kansascity_stlouis/arx_short_nocov": {
+  "n_train": 2160,
+  "alpha": 100
+ },
+ "kansascity_stlouis/lgbm_short_nocov": {
+  "n_train": 2160,
+  "iters": 72
+ },
+ "dallas_memphis/arx_full": {
+  "n_train": 52440,
+  "alpha": 0.1
+ },
+ "dallas_memphis/lgbm_full": {
+  "n_train": 52440,
+  "iters": 248
+ },
+ "dallas_memphis/arx_full_nocov": {
+  "n_train": 52440,
+  "alpha": 0.1
+ },
+ "dallas_memphis/lgbm_full_nocov": {
+  "n_train": 52440,
+  "iters": 95
+ },
+ "dallas_memphis/arx_short": {
+  "n_train": 2160,
+  "alpha": 0.1
+ },
+ "dallas_memphis/lgbm_short": {
+  "n_train": 2160,
+  "iters": 50
+ },
+ "dallas_memphis/arx_short_nocov": {
+  "n_train": 2160,
+  "alpha": 0.1
+ },
+ "dallas_memphis/lgbm_short_nocov": {
+  "n_train": 2160,
+  "iters": 45
+ },
+ "brest_paris/arx_full": {
+  "n_train": 52440,
+  "alpha": 0.1
+ },
+ "brest_paris/lgbm_full": {
+  "n_train": 52440,
+  "iters": 444
+ },
+ "brest_paris/arx_full_nocov": {
+  "n_train": 52440,
+  "alpha": 10
+ },
+ "brest_paris/lgbm_full_nocov": {
+  "n_train": 52440,
+  "iters": 135
+ },
+ "brest_paris/arx_short": {
+  "n_train": 2160,
+  "alpha": 10
+ },
+ "brest_paris/lgbm_short": {
+  "n_train": 2160,
+  "iters": 77
+ },
+ "brest_paris/arx_short_nocov": {
+  "n_train": 2160,
+  "alpha": 100
+ },
+ "brest_paris/lgbm_short_nocov": {
+  "n_train": 2160,
+  "iters": 66
+ },
+ "dublin_london/arx_full": {
+  "n_train": 52440,
+  "alpha": 0.1
+ },
+ "dublin_london/lgbm_full": {
+  "n_train": 52440,
+  "iters": 437
+ },
+ "dublin_london/arx_full_nocov": {
+  "n_train": 52440,
+  "alpha": 10
+ },
+ "dublin_london/lgbm_full_nocov": {
+  "n_train": 52440,
+  "iters": 159
+ },
+ "dublin_london/arx_short": {
+  "n_train": 2160,
+  "alpha": 1
+ },
+ "dublin_london/lgbm_short": {
+  "n_train": 2160,
+  "iters": 47
+ },
+ "dublin_london/arx_short_nocov": {
+  "n_train": 2160,
+  "alpha": 100
+ },
+ "dublin_london/lgbm_short_nocov": {
+  "n_train": 2160,
+  "iters": 38
+ },
+ "amsterdam_berlin/arx_full": {
+  "n_train": 52440,
+  "alpha": 0.1
+ },
+ "amsterdam_berlin/lgbm_full": {
+  "n_train": 52440,
+  "iters": 409
+ },
+ "amsterdam_berlin/arx_full_nocov": {
+  "n_train": 52440,
+  "alpha": 10
+ },
+ "amsterdam_berlin/lgbm_full_nocov": {
+  "n_train": 52440,
+  "iters": 116
+ },
+ "amsterdam_berlin/arx_short": {
+  "n_train": 2160,
+  "alpha": 0.1
+ },
+ "amsterdam_berlin/lgbm_short": {
+  "n_train": 2160,
+  "iters": 18
+ },
+ "amsterdam_berlin/arx_short_nocov": {
+  "n_train": 2160,
+  "alpha": 100
+ },
+ "amsterdam_berlin/lgbm_short_nocov": {
+  "n_train": 2160,
+  "iters": 64
+ },
+ "paris_frankfurt/arx_full": {
+  "n_train": 52440,
+  "alpha": 1
+ },
+ "paris_frankfurt/lgbm_full": {
+  "n_train": 52440,
+  "iters": 441
+ },
+ "paris_frankfurt/arx_full_nocov": {
+  "n_train": 52440,
+  "alpha": 10
+ },
+ "paris_frankfurt/lgbm_full_nocov": {
+  "n_train": 52440,
+  "iters": 154
+ },
+ "paris_frankfurt/arx_short": {
+  "n_train": 2160,
+  "alpha": 0.1
+ },
+ "paris_frankfurt/lgbm_short": {
+  "n_train": 2160,
+  "iters": 87
+ },
+ "paris_frankfurt/arx_short_nocov": {
+  "n_train": 2160,
+  "alpha": 0.1
+ },
+ "paris_frankfurt/lgbm_short_nocov": {
+  "n_train": 2160,
+  "iters": 64
+ },
+ "adelaide_melbourne/arx_full": {
+  "n_train": 52440,
+  "alpha": 10
+ },
+ "adelaide_melbourne/lgbm_full": {
+  "n_train": 52440,
+  "iters": 267
+ },
+ "adelaide_melbourne/arx_full_nocov": {
+  "n_train": 52440,
+  "alpha": 10
+ },
+ "adelaide_melbourne/lgbm_full_nocov": {
+  "n_train": 52440,
+  "iters": 99
+ },
+ "adelaide_melbourne/arx_short": {
+  "n_train": 2160,
+  "alpha": 100
+ },
+ "adelaide_melbourne/lgbm_short": {
+  "n_train": 2160,
+  "iters": 83
+ },
+ "adelaide_melbourne/arx_short_nocov": {
+  "n_train": 2160,
+  "alpha": 10
+ },
+ "adelaide_melbourne/lgbm_short_nocov": {
+  "n_train": 2160,
+  "iters": 30
+ },
+ "beijing_seoul/arx_full": {
+  "n_train": 52440,
+  "alpha": 1
+ },
+ "beijing_seoul/lgbm_full": {
+  "n_train": 52440,
+  "iters": 205
+ },
+ "beijing_seoul/arx_full_nocov": {
+  "n_train": 52440,
+  "alpha": 0.1
+ },
+ "beijing_seoul/lgbm_full_nocov": {
+  "n_train": 52440,
+  "iters": 121
+ },
+ "beijing_seoul/arx_short": {
+  "n_train": 2160,
+  "alpha": 100
+ },
+ "beijing_seoul/lgbm_short": {
+  "n_train": 2160,
+  "iters": 24
+ },
+ "beijing_seoul/arx_short_nocov": {
+  "n_train": 2160,
+  "alpha": 0.1
+ },
+ "beijing_seoul/lgbm_short_nocov": {
+  "n_train": 2160,
+  "iters": 34
+ }
+}

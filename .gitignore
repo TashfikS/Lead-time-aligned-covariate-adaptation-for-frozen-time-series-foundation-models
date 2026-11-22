@@ -1,0 +1,24 @@
+# not part of the repository
+local_only/
+/init_literature_review
+/main.pdf
+/Business Combination BU.pdf
+
+# raw downloads and third-party files
+data/*/raw/
+data/traffic/kout/
+lit/
+
+# kernel output copies of the package, caches, credentials
+results/**/lta/
+__pycache__/
+*.pyc
+.kg*/
+tools/kernels.tsv
+tools/reported.txt
+paper/*.aux
+paper/*.log
+paper/*.out
+
+# PEMS-BAY series: rebuild with tools/build_traffic.py (not redistributed)
+data/traffic/hourly.csv

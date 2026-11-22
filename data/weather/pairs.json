@@ -1,0 +1,42 @@
+{
+ "omaha_chicago": [
+  "omaha_chicago_up",
+  "omaha_chicago_dn"
+ ],
+ "minneapolis_milwaukee": [
+  "minneapolis_milwaukee_up",
+  "minneapolis_milwaukee_dn"
+ ],
+ "kansascity_stlouis": [
+  "kansascity_stlouis_up",
+  "kansascity_stlouis_dn"
+ ],
+ "dallas_memphis": [
+  "dallas_memphis_up",
+  "dallas_memphis_dn"
+ ],
+ "brest_paris": [
+  "brest_paris_up",
+  "brest_paris_dn"
+ ],
+ "dublin_london": [
+  "dublin_london_up",
+  "dublin_london_dn"
+ ],
+ "amsterdam_berlin": [
+  "amsterdam_berlin_up",
+  "amsterdam_berlin_dn"
+ ],
+ "paris_frankfurt": [
+  "paris_frankfurt_up",
+  "paris_frankfurt_dn"
+ ],
+ "adelaide_melbourne": [
+  "adelaide_melbourne_up",
+  "adelaide_melbourne_dn"
+ ],
+ "beijing_seoul": [
+  "beijing_seoul_up",
+  "beijing_seoul_dn"
+ ]
+}

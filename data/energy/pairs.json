@@ -1,0 +1,42 @@
+{
+ "ireland_gb": [
+  "ireland_gb_up",
+  "ireland_gb_dn"
+ ],
+ "gb_netherlands": [
+  "gb_netherlands_up",
+  "gb_netherlands_dn"
+ ],
+ "netherlands_tennet": [
+  "netherlands_tennet_up",
+  "netherlands_tennet_dn"
+ ],
+ "france_amprion": [
+  "france_amprion_up",
+  "france_amprion_dn"
+ ],
+ "amprion_50hertz": [
+  "amprion_50hertz_up",
+  "amprion_50hertz_dn"
+ ],
+ "dk1_dk2": [
+  "dk1_dk2_up",
+  "dk1_dk2_dn"
+ ],
+ "50hertz_poland": [
+  "50hertz_poland_up",
+  "50hertz_poland_dn"
+ ],
+ "dk2_se4": [
+  "dk2_se4_up",
+  "dk2_se4_dn"
+ ],
+ "poland_lithuania": [
+  "poland_lithuania_up",
+  "poland_lithuania_dn"
+ ],
+ "se3_finland": [
+  "se3_finland_up",
+  "se3_finland_dn"
+ ]
+}

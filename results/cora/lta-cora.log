@@ -1,0 +1,81 @@
+[{"stream_name":"stdout","time":6.104688516,"data":"PROGRESS [   0.1 min] pip 0\n"}
+,{"stream_name":"stderr","time":37.953872089,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stderr","time":38.069042848,"data":"[transformers] `torch_dtype` is deprecated! Use `dtype` instead!\n"}
+,{"stream_name":"stderr","time":42.891825869,"data":"\rLoading weights:   0%|          | 0/170 [00:00\u003c?, ?it/s]\rLoading weights:  69%|██████▉   | 117/170 [00:00\u003c00:00, 1160.60it/s]\rLoading weights: 100%|██████████| 170/170 [00:00\u003c00:00, 1201.11it/s]\n"}
+,{"stream_name":"stdout","time":46.953497687,"data":"PROGRESS [   0.8 min] river {'train': 17425, 'val': 2912, 'test': 9046}\n"}
+,{"stream_name":"stdout","time":232.330007051,"data":"PROGRESS [   3.9 min] river embedded\n"}
+,{"stream_name":"stdout","time":232.469395412,"data":"PROGRESS [   3.9 min] river cora_raw step 0 val 0.2671\n"}
+,{"stream_name":"stderr","time":233.624571546,"data":"/kaggle/src/script.py:67: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.\n"}
+,{"stream_name":"stderr","time":233.62460306,"data":"Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:836.)\n"}
+,{"stream_name":"stdout","time":233.624599801,"data":"PROGRESS [   3.9 min] river cora_raw step 250 loss 0.1073 val 0.2522 best 0.2522 @ 250\n"}
+,{"stream_name":"stderr","time":233.624610189,"data":"  P(dom, arm, \"step\", step, \"loss\", round(float(loss), 4), \"val\", round(v, 4), \"best\", round(best[0], 4), \"@\", best[1])\n"}
+,{"stream_name":"stdout","time":234.55392972,"data":"PROGRESS [   3.9 min] river cora_raw step 500 loss 0.0785 val 0.2605 best 0.2522 @ 250\n"}
+,{"stream_name":"stdout","time":235.476200039,"data":"PROGRESS [   3.9 min] river cora_raw step 750 loss 0.0918 val 0.2639 best 0.2522 @ 250\n"}
+,{"stream_name":"stdout","time":236.412923619,"data":"PROGRESS [   3.9 min] river cora_raw step 1000 loss 0.1005 val 0.2533 best 0.2522 @ 250\n"}
+,{"stream_name":"stdout","time":237.373527535,"data":"PROGRESS [   3.9 min] river cora_raw step 1250 loss 0.0709 val 0.2614 best 0.2522 @ 250\n"}
+,{"stream_name":"stdout","time":238.312039612,"data":"PROGRESS [   4.0 min] river cora_raw step 1500 loss 0.082 val 0.2584 best 0.2522 @ 250\n"}
+,{"stream_name":"stdout","time":239.245837649,"data":"PROGRESS [   4.0 min] river cora_raw step 1750 loss 0.0806 val 0.2467 best 0.2467 @ 1750\n"}
+,{"stream_name":"stdout","time":240.158301984,"data":"PROGRESS [   4.0 min] river cora_raw step 2000 loss 0.1293 val 0.2502 best 0.2467 @ 1750\n"}
+,{"stream_name":"stdout","time":240.397698224,"data":"PROGRESS [   4.0 min] river cora_raw TEST GM-MASE 0.2709 best step 1750\n"}
+,{"stream_name":"stdout","time":240.493991093,"data":"PROGRESS [   4.0 min] river cora_nocov step 0 val 0.2671\n"}
+,{"stream_name":"stdout","time":241.453593655,"data":"PROGRESS [   4.0 min] river cora_nocov step 250 loss 0.1284 val 0.2683 best 0.2671 @ 0\n"}
+,{"stream_name":"stdout","time":242.470878935,"data":"PROGRESS [   4.0 min] river cora_nocov step 500 loss 0.0858 val 0.2657 best 0.2657 @ 500\n"}
+,{"stream_name":"stdout","time":243.439000683,"data":"PROGRESS [   4.0 min] river cora_nocov step 750 loss 0.1219 val 0.2705 best 0.2657 @ 500\n"}
+,{"stream_name":"stdout","time":244.373537084,"data":"PROGRESS [   4.1 min] river cora_nocov step 1000 loss 0.1206 val 0.2686 best 0.2657 @ 500\n"}
+,{"stream_name":"stdout","time":245.290916139,"data":"PROGRESS [   4.1 min] river cora_nocov step 1250 loss 0.0776 val 0.2647 best 0.2647 @ 1250\n"}
+,{"stream_name":"stdout","time":246.205683801,"data":"PROGRESS [   4.1 min] river cora_nocov step 1500 loss 0.093 val 0.2632 best 0.2632 @ 1500\n"}
+,{"stream_name":"stdout","time":247.132606324,"data":"PROGRESS [   4.1 min] river cora_nocov step 1750 loss 0.0923 val 0.2676 best 0.2632 @ 1500\n"}
+,{"stream_name":"stdout","time":248.118894466,"data":"PROGRESS [   4.1 min] river cora_nocov step 2000 loss 0.1329 val 0.2749 best 0.2632 @ 1500\n"}
+,{"stream_name":"stdout","time":248.367554071,"data":"PROGRESS [   4.1 min] river cora_nocov TEST GM-MASE 0.2798 best step 1500\n"}
+,{"stream_name":"stdout","time":252.236541734,"data":"PROGRESS [   4.2 min] air {'train': 21700, 'val': 3650, 'test': 10960}\n"}
+,{"stream_name":"stdout","time":488.011842952,"data":"PROGRESS [   8.1 min] air embedded\n"}
+,{"stream_name":"stdout","time":488.12784759,"data":"PROGRESS [   8.1 min] air cora_raw step 0 val 0.3682\n"}
+,{"stream_name":"stdout","time":489.053348119,"data":"PROGRESS [   8.1 min] air cora_raw step 250 loss 0.1557 val 0.3373 best 0.3373 @ 250\n"}
+,{"stream_name":"stdout","time":490.014531376,"data":"PROGRESS [   8.1 min] air cora_raw step 500 loss 0.1461 val 0.3386 best 0.3373 @ 250\n"}
+,{"stream_name":"stdout","time":490.945791193,"data":"PROGRESS [   8.2 min] air cora_raw step 750 loss 0.1869 val 0.3219 best 0.3219 @ 750\n"}
+,{"stream_name":"stdout","time":491.907469838,"data":"PROGRESS [   8.2 min] air cora_raw step 1000 loss 0.1455 val 0.3313 best 0.3219 @ 750\n"}
+,{"stream_name":"stdout","time":492.886707413,"data":"PROGRESS [   8.2 min] air cora_raw step 1250 loss 0.1529 val 0.3244 best 0.3219 @ 750\n"}
+,{"stream_name":"stdout","time":493.821928697,"data":"PROGRESS [   8.2 min] air cora_raw step 1500 loss 0.1443 val 0.3282 best 0.3219 @ 750\n"}
+,{"stream_name":"stdout","time":494.814794594,"data":"PROGRESS [   8.2 min] air cora_raw step 1750 loss 0.1736 val 0.3275 best 0.3219 @ 750\n"}
+,{"stream_name":"stdout","time":495.750473305,"data":"PROGRESS [   8.2 min] air cora_raw step 2000 loss 0.1558 val 0.3298 best 0.3219 @ 750\n"}
+,{"stream_name":"stdout","time":496.036052153,"data":"PROGRESS [   8.2 min] air cora_raw TEST GM-MASE 0.3192 best step 750\n"}
+,{"stream_name":"stdout","time":496.146497201,"data":"PROGRESS [   8.2 min] air cora_nocov step 0 val 0.3682\n"}
+,{"stream_name":"stdout","time":497.104369573,"data":"PROGRESS [   8.3 min] air cora_nocov step 250 loss 0.1664 val 0.3657 best 0.3657 @ 250\n"}
+,{"stream_name":"stdout","time":498.066369831,"data":"PROGRESS [   8.3 min] air cora_nocov step 500 loss 0.1802 val 0.3634 best 0.3634 @ 500\n"}
+,{"stream_name":"stdout","time":499.005533587,"data":"PROGRESS [   8.3 min] air cora_nocov step 750 loss 0.2007 val 0.3628 best 0.3628 @ 750\n"}
+,{"stream_name":"stdout","time":499.99150284,"data":"PROGRESS [   8.3 min] air cora_nocov step 1000 loss 0.176 val 0.362 best 0.362 @ 1000\n"}
+,{"stream_name":"stdout","time":500.976876063,"data":"PROGRESS [   8.3 min] air cora_nocov step 1250 loss 0.1778 val 0.3625 best 0.362 @ 1000\n"}
+,{"stream_name":"stdout","time":501.948219152,"data":"PROGRESS [   8.3 min] air cora_nocov step 1500 loss 0.1703 val 0.3608 best 0.3608 @ 1500\n"}
+,{"stream_name":"stdout","time":502.910355427,"data":"PROGRESS [   8.4 min] air cora_nocov step 1750 loss 0.1919 val 0.3612 best 0.3608 @ 1500\n"}
+,{"stream_name":"stdout","time":503.843518942,"data":"PROGRESS [   8.4 min] air cora_nocov step 2000 loss 0.1801 val 0.3604 best 0.3604 @ 2000\n"}
+,{"stream_name":"stdout","time":504.144712613,"data":"PROGRESS [   8.4 min] air cora_nocov TEST GM-MASE 0.3567 best step 2000\n"}
+,{"stream_name":"stdout","time":506.84279922,"data":"PROGRESS [   8.4 min] energy {'train': 10123, 'val': 3627, 'test': 6313}\n"}
+,{"stream_name":"stdout","time":636.884797124,"data":"PROGRESS [  10.6 min] energy embedded\n"}
+,{"stream_name":"stdout","time":637.001215117,"data":"PROGRESS [  10.6 min] energy cora_raw step 0 val 0.5104\n"}
+,{"stream_name":"stdout","time":637.940788205,"data":"PROGRESS [  10.6 min] energy cora_raw step 250 loss 0.3011 val 0.4843 best 0.4843 @ 250\n"}
+,{"stream_name":"stdout","time":638.910293001,"data":"PROGRESS [  10.6 min] energy cora_raw step 500 loss 0.2771 val 0.4928 best 0.4843 @ 250\n"}
+,{"stream_name":"stdout","time":639.853935679,"data":"PROGRESS [  10.6 min] energy cora_raw step 750 loss 0.2563 val 0.4837 best 0.4837 @ 750\n"}
+,{"stream_name":"stdout","time":640.865069511,"data":"PROGRESS [  10.7 min] energy cora_raw step 1000 loss 0.2798 val 0.4821 best 0.4821 @ 1000\n"}
+,{"stream_name":"stdout","time":641.834678546,"data":"PROGRESS [  10.7 min] energy cora_raw step 1250 loss 0.2518 val 0.4965 best 0.4821 @ 1000\n"}
+,{"stream_name":"stdout","time":642.767604064,"data":"PROGRESS [  10.7 min] energy cora_raw step 1500 loss 0.307 val 0.5072 best 0.4821 @ 1000\n"}
+,{"stream_name":"stdout","time":643.736587679,"data":"PROGRESS [  10.7 min] energy cora_raw step 1750 loss 0.3215 val 0.5116 best 0.4821 @ 1000\n"}
+,{"stream_name":"stdout","time":644.662538268,"data":"PROGRESS [  10.7 min] energy cora_raw step 2000 loss 0.2642 val 0.4988 best 0.4821 @ 1000\n"}
+,{"stream_name":"stdout","time":644.836445501,"data":"PROGRESS [  10.7 min] energy cora_raw TEST GM-MASE 0.5078 best step 1000\n"}
+,{"stream_name":"stdout","time":644.953874846,"data":"PROGRESS [  10.7 min] energy cora_nocov step 0 val 0.5104\n"}
+,{"stream_name":"stdout","time":645.905296939,"data":"PROGRESS [  10.7 min] energy cora_nocov step 250 loss 0.2776 val 0.5065 best 0.5065 @ 250\n"}
+,{"stream_name":"stdout","time":646.849044372,"data":"PROGRESS [  10.8 min] energy cora_nocov step 500 loss 0.3074 val 0.517 best 0.5065 @ 250\n"}
+,{"stream_name":"stdout","time":647.7878394,"data":"PROGRESS [  10.8 min] energy cora_nocov step 750 loss 0.2852 val 0.5006 best 0.5006 @ 750\n"}
+,{"stream_name":"stdout","time":648.748678401,"data":"PROGRESS [  10.8 min] energy cora_nocov step 1000 loss 0.2939 val 0.502 best 0.5006 @ 750\n"}
+,{"stream_name":"stdout","time":649.691803675,"data":"PROGRESS [  10.8 min] energy cora_nocov step 1250 loss 0.2739 val 0.5152 best 0.5006 @ 750\n"}
+,{"stream_name":"stdout","time":650.626567064,"data":"PROGRESS [  10.8 min] energy cora_nocov step 1500 loss 0.3272 val 0.4985 best 0.4985 @ 1500\n"}
+,{"stream_name":"stdout","time":651.59490818,"data":"PROGRESS [  10.8 min] energy cora_nocov step 1750 loss 0.3123 val 0.5063 best 0.4985 @ 1500\n"}
+,{"stream_name":"stdout","time":652.581695198,"data":"PROGRESS [  10.9 min] energy cora_nocov step 2000 loss 0.2879 val 0.5057 best 0.4985 @ 1500\n"}
+,{"stream_name":"stdout","time":652.749424216,"data":"PROGRESS [  10.9 min] energy cora_nocov TEST GM-MASE 0.5267 best step 1500\n"}
+,{"stream_name":"stdout","time":653.088226664,"data":"PROGRESS [  10.9 min] DONE\n"}
+,{"stream_name":"stderr","time":659.53246547,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":659.532512319,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":659.78735195,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":659.787377899,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":660.569477904,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":661.684738452,"data":"[NbConvertApp] Writing 388923 bytes to __results__.html\n"}
+]
